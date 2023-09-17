@@ -1,0 +1,119 @@
+/*@font-face {
+    font-family: 'Alethia Next';
+    src: url('../fonts/AlethiaNext-Light.eot');
+    src: local('Alethia Next Light'), local('AlethiaNext-Light'),
+        url('../fonts/AlethiaNext-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlethiaNext-Light.woff2') format('woff2'),
+        url('../fonts/AlethiaNext-Light.woff') format('woff'),
+        url('../fonts/AlethiaNext-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}*/ 
+
+// файл обнуляющих стилей
+@import "nullstyle.scss";
+
+body{
+    width: 1604px;
+    height: auto;
+    background: rgba(34,13,60);
+    //backdrop-filter: blur(92.30584716796875px);
+    //background-image: url(/img/MainBackground/Background.png);
+    //background-repeat: no-repeat;
+    object-fit: cover;
+}
+.container{
+    margin: 0 auto;
+    width: 1394px;
+}
+.block-blur{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.ellipse-first{
+    width: 267.521px;
+    height: 267.521px;
+    flex-shrink: 0;
+    border-radius: 267.521px;
+    background: #4A46FF;
+    position: absolute;
+    top:240px;
+    left: 1000px;
+    filter: blur(80px);
+    z-index: -1;
+    opacity: 0.25;
+}
+.ellipse-second {
+    width: 153.659px;
+    height: 153.659px;
+    flex-shrink: 0;
+    fill: #FFB1EE;
+    position: absolute;
+    top:430px;
+    left: 660px;
+    filter: blur(80px);
+    z-index: -1;
+    opacity: 0.25;
+}
+.ellipse-third{
+    width: 271.943px;
+    height: 271.943px;
+    flex-shrink: 0;
+    border-radius: 271.943px;
+    background: #FF00C8;
+    position: absolute;
+    top:460px;
+    left:60px;
+    filter: blur(80px);
+    z-index: -1;
+    opacity: 0.25;
+}
+
+.main-block {
+}
+.main-block__container {
+    width: 1394px;
+    padding: 42px 0 0 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo {
+}
+.header__logo-img {
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap:80px;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Orbitron;
+    font-size: 19.898px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding:0 200px 0 0;
+}
+.header__menu-market {
+}
+.header__menu-features {
+}
+.header__menu-community {
+}
+.header__icons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+.header__icons-shop {
+}
+.header__icons-shop-img {
+}
+.header__icons-account {
+}
+.header__icons-account-img {
+}
