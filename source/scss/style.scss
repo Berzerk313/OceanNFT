@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
     font-family: 'Alethia Next';
     src: url('../fonts/AlethiaNext-Light.eot');
     src: local('Alethia Next Light'), local('AlethiaNext-Light'),
@@ -8,7 +8,7 @@
         url('../fonts/AlethiaNext-Light.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-}*/ 
+} 
 
 // файл обнуляющих стилей
 @import "nullstyle.scss";
@@ -70,11 +70,9 @@ body{
     opacity: 0.25;
 }
 
-.main-block {
-}
-.main-block__container {
-    width: 1394px;
-    padding: 42px 0 0 0;
+.header__container {
+    width: 1388px;
+    padding: 49px 5px 0 0;
 }
 .header {
     display: flex;
@@ -82,20 +80,22 @@ body{
     justify-content: space-between;
 }
 .header__logo {
+    padding: 0 0 0 8px;
+    
 }
 .header__logo-img {
 }
 .header__menu {
     display: flex;
     align-items: center;
-    gap:80px;
+    gap:67px;
     color: rgba(255, 255, 255, 0.60);
     font-family: Orbitron;
     font-size: 19.898px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding:0 200px 0 0;
+    padding:0 261px 0 0;
 }
 .header__menu-market {
 }
@@ -116,4 +116,130 @@ body{
 .header__icons-account {
 }
 .header__icons-account-img {
+}
+
+
+.main-block__container {
+    width: 1394px;
+    padding: 100px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.main-block {
+    display: flex;
+}
+.left-block {
+    width: 847.887px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.left-block__title {
+    color: #FFF;
+    font-family: Spartan;
+    font-size: 66.328px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 137.4%; /* 91.134px */
+}
+.color{
+    background: linear-gradient(272deg, #43A5E3 46.06%, #FF56F6 81.53%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left-block__text {
+    color: #FFF;
+    font-family: Rajdhani;
+    font-size: 26.531px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44.218px; /* 166.667% */
+}
+.left-block__buttons {
+    display: flex;
+    gap:36px;
+    align-items: center;
+}
+.left-block__but-explore {
+    
+}
+.button-explore {
+    width: 249.834px;
+    height: 64.117px;
+    border-radius: 50px 0 50px 0;
+    justify-content: center;
+    align-items: center;
+    span{
+        color: #fff;
+        font-family: Orbitron;
+        font-size: 19.898px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        
+    }
+    img{
+        padding: 6px 0 0 4px;
+    }
+    background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+    //stroke-width: 2.211px;
+    // stroke: #FFA6FA;
+    // filter: drop-shadow(0px 4.421836853027344px 107.22954559326172px rgba(255, 86, 246, 0.51));
+    // backdrop-filter: blur(106.12408447265625px);
+    
+}
+.left-block__but-create {
+    
+}
+.button-create {
+    width: 148.132px;
+    height: 25.426px;
+    background: linear-gradient(90deg, #42A6E3 2.33%, #FF56F6 101.4%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0;
+    font-family: Orbitron;
+    font-size: 19.898px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.left-block__sums {
+    display: flex;
+    gap:40px
+}
+.left-block__sums-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-block__sum {
+    color: #FFF;
+    font-family: Aldrich;
+    font-size: 39.797px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53.062px; /* 133.333% */
+    letter-spacing: 0.221px;
+
+}
+.left-block__text {
+    color: #FFF;
+    font-family: Alethia Next;
+    font-size: 17.687px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.109px; /* 125% */
+    letter-spacing: 0.221px;
+}
+.right-block{
+    //position: absolute;
+}
+.right-block__monster{
+   background: lightgray 50% / cover no-repeat;
+   border-radius: 150px 20px 20px 20px;
+   box-shadow: 1px 1px 10px 1px;
+   //position: relative;
 }
