@@ -14,7 +14,7 @@
 @import "nullstyle.scss";
 
 body{
-    width: 1604px;
+    width: 100%;
     height: auto;
     background: rgba(34,13,60);
     //backdrop-filter: blur(92.30584716796875px);
@@ -126,7 +126,7 @@ body{
 ////////////////////////////////////
 
 .main-block__container {
-    width: 1394px;
+    width: 100%;
     padding: 100px 0 0 0;
     display: flex;
     align-items: center;
@@ -138,18 +138,21 @@ body{
     width: 847.887px;
     display: flex;
     flex-direction: column;
-    gap:28px;
+    gap:16px;
 }
 .left-block__title {
-    color: #FFF;
-    font-family: "League Spartan";
-    font-size: 86px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 137.4%; /* 91.134px */
-    letter-spacing: 0px;
-    line-height: 96px;
-    padding: 12px 0 0 0;
+    h1{
+        color: #FFF;
+        font-family: "League Spartan";
+        font-size: 86px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 137.4%; /* 91.134px */
+        letter-spacing: 0px;
+        line-height: 96px;
+        padding: 12px 0 0 0;
+    }
+    
 }
 .color{
     background: linear-gradient(272deg, #43A5E3 46.06%, #FF56F6 81.53%);
@@ -158,22 +161,23 @@ body{
     -webkit-text-fill-color: transparent;
 }
 .left-block__text {
-    color: #FFF;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 26.531px;
-    font-style: normal;
-    font-weight: 400;
-    
-    p{
-        line-height: 60px;
+    h2{
+        color: #FFF;
+        font-family: '  Rajdhani', sans-serif;
+        font-size: 26.531px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 44.218px
     }
 }
 .left-block__buttons {
     display: flex;
     gap:36px;
+    padding:20px 0 0 0;
     align-items: center;
 }
 .left-block__but-explore {
+   
     
 }
 .button-explore {
@@ -220,7 +224,8 @@ body{
 }
 .left-block__sums {
     display: flex;
-    gap:40px;
+    gap:60px;
+    padding: 54px 0 0 0;
 }
 .left-block__sums-column {
     display: flex;
@@ -250,7 +255,7 @@ body{
 /////////////////////
 
 .right-block{
-    position: relative;
+   position: relative;
 }
 .right-block__monster{
    background: lightgray 50% / cover no-repeat;
@@ -308,6 +313,7 @@ body{
     line-height: 35.375px; /* 228.571% */
 }
 .person-check {
+    padding:10px 0 0 0 ;
 }
 .person-check-img {
 }
@@ -341,7 +347,7 @@ body{
     font-size: 11.055px;
     font-style: normal;
     font-weight: 400;
-    line-height: 35.375px; /* 320% */
+    line-height: 15.375px; /* 320% */
     opacity: 0.7;
 }
 .card__second-column {
@@ -375,7 +381,7 @@ body{
     font-size: 17.687px;
     font-style: normal;
     font-weight: 600;
-    line-height: 35.375px; /* 200% */
+    line-height: 3.375px; /* 200% */
 }
 .time-first-text {
     color: #FFF;
@@ -395,15 +401,12 @@ body{
     height: 37.586px;
     justify-content: center;
     align-items: center;
-    span{
-        color: #FFF;
+    color: #FFF;
     font-family: Rajdhani;
     font-size: 17.687px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-        
-    }
     img{
         padding: 6px 0 0 4px;
     }
@@ -412,4 +415,19 @@ body{
     background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     box-shadow: 0px 4.42184px 107.22955px 0px rgba(255, 86, 246, 0.51);
     backdrop-filter: blur(106.12408447265625px);
+}
+
+
+.logotips__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0 0 0;
+    
+}
+.logotips {
+    display: flex;
+    gap:134px;
+}
+.logo {
 }
