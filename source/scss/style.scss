@@ -81,7 +81,7 @@ body {
 
 .header__container {
     width: 1388px;
-    padding: 49px 5px 0 0;
+    padding: 58px 0 0 0;
 }
 
 .header {
@@ -278,10 +278,12 @@ body {
 /////////////////////
 
 .right-block {
+    padding: 30px 0 0 50px;
     position: relative;
 }
 
 .right-block__monster {
+    
     background: lightgray 50% / cover no-repeat;
     border-radius: 150px 20px 20px 20px;
     box-shadow: 1px 1px 10px 1px;
@@ -506,7 +508,9 @@ body {
 }
 
 .top-nft__text {
+    padding: 0 15px 0 0;
     display: flex;
+    gap:17px;
 
     h2 {
         color: #FFF;
@@ -676,6 +680,7 @@ body {
 .tn-card__but-place {
     display: flex;
 
+
     button {
         border: 2.88px solid #FFA6FA;
         background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
@@ -705,7 +710,7 @@ body {
 }
 
 .exp-collect-first {
-    padding: 209px 0 0 0;
+    padding: 160px 0 0 0;
     display: flex;
 }
 
@@ -713,6 +718,7 @@ body {
     display: flex;
     flex-direction: column;
     gap:10px;
+    padding:50px 0 0 0;
 
     h2 {
         color: #FFF;
@@ -726,8 +732,9 @@ body {
 
 .exp-col-first__buttons {
     display: grid;
-    //flex-wrap: wrap;
-    grid-template-rows: repeat(4, 2fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap:49.75px;
+    padding: 34px 0 0 0;
 
     button {
         width: 368.118px;
@@ -768,6 +775,20 @@ body {
 }
 
 .exp-col-first__text {
+    justify-content: right;
+    padding:20px 0 0 0;
     display: flex;
     gap:10px;
+    h2{
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 19.898px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.exp-col-first__woman{
+    padding: 0 0 0 130px;
 }

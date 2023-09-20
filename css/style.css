@@ -138,7 +138,7 @@ body {
 
 .header__container {
   width: 1388px;
-  padding: 49px 5px 0 0;
+  padding: 58px 0 0 0;
 }
 
 .header {
@@ -294,6 +294,7 @@ body {
 }
 
 .right-block {
+  padding: 30px 0 0 50px;
   position: relative;
 }
 
@@ -501,7 +502,9 @@ body {
 }
 
 .top-nft__text {
+  padding: 0 15px 0 0;
   display: flex;
+  gap: 17px;
 }
 .top-nft__text h2 {
   color: #FFF;
@@ -679,7 +682,7 @@ body {
 }
 
 .exp-collect-first {
-  padding: 209px 0 0 0;
+  padding: 160px 0 0 0;
   display: flex;
 }
 
@@ -687,6 +690,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding: 50px 0 0 0;
 }
 .exp-col-first-left h2 {
   color: #FFF;
@@ -699,7 +703,9 @@ body {
 
 .exp-col-first__buttons {
   display: grid;
-  grid-template-rows: repeat(4, 2fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 49.75px;
+  padding: 34px 0 0 0;
 }
 .exp-col-first__buttons button {
   width: 368.118px;
@@ -738,6 +744,20 @@ body {
 }
 
 .exp-col-first__text {
+  justify-content: right;
+  padding: 20px 0 0 0;
   display: flex;
   gap: 10px;
+}
+.exp-col-first__text h2 {
+  color: #FFF;
+  font-family: Orbitron;
+  font-size: 19.898px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.exp-col-first__woman {
+  padding: 0 0 0 130px;
 }/*# sourceMappingURL=style.css.map */
