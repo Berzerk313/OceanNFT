@@ -8,66 +8,70 @@
         url('../fonts/AlethiaNext-Light.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-} 
+}
 
 // файл обнуляющих стилей
 @import "nullstyle.scss";
 
-body{
+body {
     width: 100%;
     height: auto;
-    background: rgba(34,13,60);
+    background: rgba(34, 13, 60);
     //backdrop-filter: blur(92.30584716796875px);
     //background-image: url(/img/MainBackground/Background.png);
     //background-repeat: no-repeat;
     object-fit: cover;
 }
-.container{
+
+.container {
     margin: 0 auto;
     width: 1394px;
 }
 
 ////////////////////////
 
-.block-blur{
+.block-blur {
     width: 100%;
     height: 100%;
     position: relative;
 }
-.ellipse-first{
+
+.ellipse-first {
     width: 267.521px;
     height: 267.521px;
     flex-shrink: 0;
     border-radius: 267.521px;
     background: #4A46FF;
     position: absolute;
-    top:240px;
+    top: 240px;
     left: 1000px;
     filter: blur(80px);
     z-index: -1;
     opacity: 0.25;
 }
+
 .ellipse-second {
     width: 153.659px;
     height: 153.659px;
     flex-shrink: 0;
     fill: #FFB1EE;
     position: absolute;
-    top:430px;
+    top: 430px;
     left: 660px;
     filter: blur(80px);
     z-index: -1;
     opacity: 0.25;
 }
-.ellipse-third{
+
+.ellipse-third {
     width: 271.943px;
     height: 271.943px;
     flex-shrink: 0;
     border-radius: 271.943px;
     background: #FF00C8;
     position: absolute;
-    top:460px;
-    left:60px;
+    top: 460px;
+    left: 60px;
     filter: blur(80px);
     z-index: -1;
     opacity: 0.25;
@@ -79,49 +83,53 @@ body{
     width: 1388px;
     padding: 49px 5px 0 0;
 }
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .header__logo {
     padding: 0 0 0 8px;
-    
+
 }
-.header__logo-img {
-}
+
+.header__logo-img {}
+
 .header__menu {
     display: flex;
     align-items: center;
-    gap:67px;
+    gap: 67px;
     color: rgba(255, 255, 255, 0.60);
     font-family: "Orbitron";
     font-size: 19.898px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding:0 261px 0 0;
+    padding: 0 261px 0 0;
 }
-.header__menu-market {
-}
-.header__menu-features {
-}
-.header__menu-community {
-}
+
+.header__menu-market {}
+
+.header__menu-features {}
+
+.header__menu-community {}
+
 .header__icons {
     display: flex;
     align-items: center;
     gap: 40px;
 
 }
-.header__icons-shop {
-}
-.header__icons-shop-img {
-}
-.header__icons-account {
-}
-.header__icons-account-img {
-}
+
+.header__icons-shop {}
+
+.header__icons-shop-img {}
+
+.header__icons-account {}
+
+.header__icons-account-img {}
 
 ////////////////////////////////////
 
@@ -131,37 +139,43 @@ body{
     display: flex;
     align-items: center;
 }
+
 .main-block {
     display: flex;
 }
+
 .left-block {
     width: 847.887px;
     display: flex;
     flex-direction: column;
-    gap:16px;
+    gap: 16px;
 }
+
 .left-block__title {
-    h1{
+    h1 {
         color: #FFF;
         font-family: "League Spartan";
         font-size: 86px;
         font-style: normal;
         font-weight: 600;
-        line-height: 137.4%; /* 91.134px */
+        line-height: 137.4%;
+        /* 91.134px */
         letter-spacing: 0px;
         line-height: 96px;
         padding: 12px 0 0 0;
     }
-    
+
 }
-.color{
+
+.color {
     background: linear-gradient(272deg, #43A5E3 46.06%, #FF56F6 81.53%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .left-block__text {
-    h2{
+    h2 {
         color: #FFF;
         font-family: '  Rajdhani', sans-serif;
         font-size: 26.531px;
@@ -170,44 +184,47 @@ body{
         line-height: 44.218px
     }
 }
+
 .left-block__buttons {
     display: flex;
-    gap:36px;
-    padding:20px 0 0 0;
+    gap: 36px;
+    padding: 20px 0 0 0;
     align-items: center;
 }
-.left-block__but-explore {
-   
-    
-}
+
+.left-block__but-explore {}
+
 .button-explore {
     width: 249.834px;
     height: 64.117px;
     border-radius: 50px 0 50px 0;
     justify-content: center;
     align-items: center;
-    span{
+
+    span {
         color: #fff;
         font-family: "Orbitron";
         font-size: 19.898px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        
+
     }
-    img{
+
+    img {
         padding: 6px 0 0 4px;
     }
+
     background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     //stroke-width: 2.211px;
     // stroke: #FFA6FA;
     // filter: drop-shadow(0px 4.421836853027344px 107.22954559326172px rgba(255, 86, 246, 0.51));
     // backdrop-filter: blur(106.12408447265625px);
-    
+
 }
-.left-block__but-create {
-    
-}
+
+.left-block__but-create {}
+
 .button-create {
     width: 148.132px;
     height: 25.426px;
@@ -222,53 +239,61 @@ body{
     font-weight: 700;
     line-height: normal;
 }
+
 .left-block__sums {
     display: flex;
-    gap:60px;
+    gap: 60px;
     padding: 54px 0 0 0;
 }
+
 .left-block__sums-column {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .left-block__sum {
     color: #FFF;
     font-family: "Aldrich";
     font-size: 39.797px;
     font-style: normal;
     font-weight: 400;
-    line-height: 53.062px; /* 133.333% */
+    line-height: 53.062px;
+    /* 133.333% */
     letter-spacing: 0.221px;
 
 }
+
 .left-block__text {
     color: #FFF;
     font-family: "Alethia Next";
     font-size: 17.687px;
     font-style: normal;
     font-weight: 400;
-    line-height: 22.109px; /* 125% */
+    line-height: 22.109px;
+    /* 125% */
     letter-spacing: 0.221px;
 }
 
 /////////////////////
 
-.right-block{
-   position: relative;
+.right-block {
+    position: relative;
 }
-.right-block__monster{
-   background: lightgray 50% / cover no-repeat;
-   border-radius: 150px 20px 20px 20px;
-   box-shadow: 1px 1px 10px 1px;
-   
-   
+
+.right-block__monster {
+    background: lightgray 50% / cover no-repeat;
+    border-radius: 150px 20px 20px 20px;
+    box-shadow: 1px 1px 10px 1px;
+
+
 }
-.card{
-    position: absolute; 
-    top:400px;
-    left: 200px; 
-    z-index: 1; 
+
+.main-block-card {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    z-index: 1;
     width: 336.06px;
     border: solid 1px #fff;
     fill: linear-gradient(90deg, rgba(255, 255, 255, 0.10) -1.52%, rgba(255, 255, 255, 0.02) 104.35%);
@@ -276,63 +301,74 @@ body{
     stroke: rgba(255, 255, 255, 0.28);
     backdrop-filter: blur(30.400127410888672px);
     display: flex;
-    gap:20px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
 }
-.card__first-column {
+
+.mb-card__first-column {
     display: flex;
     flex-direction: column;
-    gap:3x;
+    gap: 3x;
     justify-content: center;
 }
-.card__title {
+
+.mb-card__title {
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Rajdhani;
     font-size: 17.687px;
     font-style: normal;
     font-weight: 700;
-    line-height: 35.375px; /* 200% */
+    line-height: 35.375px;
+    /* 200% */
 }
-.card__person {
+
+.mb-card__person {
     display: flex;
-    gap:3px;
+    gap: 3px;
 }
-.person-face {
-}
-.person-face-img {
-}
-.person-name {
+
+.mb-card__person-face {}
+
+.mb-card__person-face-img {}
+
+.mb-card__person-name {
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Rajdhani;
     font-size: 15.476px;
     font-style: normal;
     font-weight: 600;
-    line-height: 35.375px; /* 228.571% */
+    line-height: 35.375px;
+    /* 228.571% */
 }
-.person-check {
-    padding:10px 0 0 0 ;
+
+.mb-card__person-check {
+    padding: 10px 0 0 0;
 }
-.person-check-img {
-}
-.card__reserve {
+
+.mb-card__person-check-img {}
+
+.mb-card__reserve {
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Rajdhani;
     font-size: 11.055px;
     font-style: normal;
     font-weight: 600;
-    line-height: 35.375px; /* 320% */
+    line-height: 35.375px;
+    /* 320% */
 }
-.card__price {
+
+.mb-card__price {
     display: flex;
-    gap:3px;
+    gap: 3px;
 }
-.price-vector-img {
-}
-.price-eth {
+
+.mb-card__price-vector-img {}
+
+.mb-card__price-eth {
     color: #FFF;
     font-family: Orbitron;
     font-size: 9.718px;
@@ -340,63 +376,74 @@ body{
     font-weight: 700;
     line-height: normal;
 }
-.price-dollars {
+
+.mb-card__price-dollars {
     color: var(--white-white-100, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Rajdhani;
     font-size: 11.055px;
     font-style: normal;
     font-weight: 400;
-    line-height: 15.375px; /* 320% */
+    line-height: 15.375px;
+    /* 320% */
     opacity: 0.7;
 }
-.card__second-column {
+
+.mb-card__second-column {
     display: flex;
     flex-direction: column;
-    gap:3px;
+    gap: 3px;
     justify-content: center;
 }
-.card__auction {
+
+.mb-card__auction {
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Rajdhani;
     font-size: 11.055px;
     font-style: normal;
     font-weight: 600;
-    line-height: 35.375px; /* 320% */
+    line-height: 35.375px;
+    /* 320% */
     opacity: 0.7;
 }
-.card__times {
+
+.mb-card__times {
     display: flex;
-    gap:3px;
+    gap: 3px;
 }
-.time {
+
+.mb-card__time {
     display: flex;
     flex-direction: column;
 }
-.time-first-number {
+
+.mb-card__time-first-number {
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Rajdhani;
     font-size: 17.687px;
     font-style: normal;
     font-weight: 600;
-    line-height: 3.375px; /* 200% */
+    line-height: 3.375px;
+    /* 200% */
 }
-.time-first-text {
+
+.mb-card__time-first-text {
     color: #FFF;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Rajdhani;
     font-size: 11.055px;
     font-style: normal;
     font-weight: 500;
-    line-height: 35.375px; /* 320% */
+    line-height: 35.375px;
+    /* 320% */
     opacity: 0.7;
 }
-.card__but-place {
-    
-}
-.button-place {
+
+.mb-card__but-place {}
+
+.mb-card__button-place {
     width: 119.39px;
     height: 37.586px;
     justify-content: center;
@@ -407,9 +454,11 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    img{
+
+    img {
         padding: 6px 0 0 4px;
     }
+
     border-radius: 2.211px;
     border: 2.211px solid #FFA6FA;
     background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
@@ -423,11 +472,302 @@ body{
     justify-content: center;
     align-items: center;
     padding: 120px 0 0 0;
-    
+
 }
+
 .logotips {
     display: flex;
-    gap:134px;
+    gap: 134px;
 }
-.logo {
+
+.logo {}
+
+//////////////////////
+
+.top-nft__container {
+    width: 1394px;
+    padding: 220px 0 0 0;
+}
+
+.top-nft {}
+
+.top-nft__title {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 26.531px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.top-nft__text {
+    display: flex;
+
+    h2 {
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 26.531px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+///////////////////////
+
+.swiper {
+    width: 1394px;
+    height: 100%;
+}
+
+/////////////////////////
+
+.tn-block-card-all {
+    display: flex;
+    gap: 35.37px;
+}
+
+.tn-block-card {
+    padding: 47px 0 0 0;
+    // display: flex;
+    // flex-direction: column;
+}
+
+.tn-card {
+    display: flex;
+    gap: 50px;
+    border: solid 1px #fff;
+    width: 437.762px;
+    height: 236.161px;
+    fill: linear-gradient(90deg, rgba(255, 255, 255, 0.10) -1.52%, rgba(255, 255, 255, 0.02) 104.35%);
+    stroke-width: 2.88px;
+    stroke: rgba(255, 255, 255, 0.28);
+    justify-content: center;
+    align-items: left;
+
+}
+
+.tn-card__first-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3 {
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Rajdhani;
+        font-size: 23.04px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46.08px;
+        /* 200% */
+    }
+
+    h4 {
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Rajdhani;
+        font-size: 14.4px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 46.08px;
+        /* 320% */
+        opacity: 0.7;
+    }
+}
+
+.tn-card__person {
+    display: flex;
+
+    h3 {
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Rajdhani;
+        font-size: 20.16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 46.08px;
+        /* 228.571% */
+    }
+}
+
+.mb-card__price {
+    display: flex;
+    align-items: center;
+
+    h3 {
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 12.659px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    h4 {
+        color: var(--white-white-100, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Rajdhani;
+        font-size: 14.4px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 46.08px;
+        /* 320% */
+        opacity: 0.7;
+    }
+}
+
+.tn-card__second-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3px;
+
+    h3 {
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Rajdhani;
+        font-size: 14.4px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 46.08px;
+        /* 320% */
+        opacity: 0.7;
+    }
+}
+
+.tn-card__times {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tn-card__time {
+    h3 {
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Rajdhani;
+        font-size: 23.04px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 46.08px;
+        /* 200% */
+        opacity: 1;
+    }
+
+    h4 {
+        color: #FFF;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Rajdhani;
+        font-size: 14.4px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 46.08px;
+        /* 320% */
+        opacity: 0.7;
+    }
+}
+
+.tn-card__but-place {
+    display: flex;
+
+    button {
+        border: 2.88px solid #FFA6FA;
+        background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+        box-shadow: 0px 5.76002px 139.68059px 0px rgba(255, 86, 246, 0.51);
+        backdrop-filter: blur(138.24058532714844px);
+        width: 155.521px;
+        height: 48.96px;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            color: #FFF;
+            font-family: Rajdhani;
+            font-size: 23.04px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+
+        }
+    }
+}
+
+/////////////////////
+
+.exp-collect-first__container {
+    width: 1394px;
+}
+
+.exp-collect-first {
+    padding: 209px 0 0 0;
+    display: flex;
+}
+
+.exp-col-first-left {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+    h2 {
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 26.531px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.exp-col-first__buttons {
+    display: grid;
+    //flex-wrap: wrap;
+    grid-template-rows: repeat(4, 2fr);
+
+    button {
+        width: 368.118px;
+        height: 98.386px;
+        border: 2.88px solid #FFA6FA;
+        box-shadow: 0px 5.76002px 139.68059px 0px rgba(255, 86, 246, 0.51);
+        backdrop-filter: blur(138.24058532714844px);
+        background-color: transparent;
+
+        h3 {
+            color: rgba(255, 255, 255, 0.50);
+            text-align: center;
+            font-family: Orbitron;
+            font-size: 26.531px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        &:hover {
+            border-radius: 2.211px;
+            border: 2.211px solid #FFA6FA;
+            background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+            box-shadow: 0px 4.42184px 107.22955px 0px rgba(255, 86, 246, 0.51);
+            backdrop-filter: blur(106.12408447265625px);
+
+            h3 {
+                color: #FFF;
+                text-align: center;
+                font-family: Orbitron;
+                font-size: 26.531px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+}
+
+.exp-col-first__text {
+    display: flex;
+    gap:10px;
 }

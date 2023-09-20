@@ -194,7 +194,8 @@ body {
   font-size: 86px;
   font-style: normal;
   font-weight: 600;
-  line-height: 137.4%; /* 91.134px */
+  line-height: 137.4%;
+  /* 91.134px */
   letter-spacing: 0px;
   line-height: 96px;
   padding: 12px 0 0 0;
@@ -276,7 +277,8 @@ body {
   font-size: 39.797px;
   font-style: normal;
   font-weight: 400;
-  line-height: 53.062px; /* 133.333% */
+  line-height: 53.062px;
+  /* 133.333% */
   letter-spacing: 0.221px;
 }
 
@@ -286,7 +288,8 @@ body {
   font-size: 17.687px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22.109px; /* 125% */
+  line-height: 22.109px;
+  /* 125% */
   letter-spacing: 0.221px;
 }
 
@@ -300,7 +303,7 @@ body {
   box-shadow: 1px 1px 10px 1px;
 }
 
-.card {
+.main-block-card {
   position: absolute;
   top: 400px;
   left: 200px;
@@ -318,58 +321,61 @@ body {
   justify-content: center;
 }
 
-.card__first-column {
+.mb-card__first-column {
   display: flex;
   flex-direction: column;
   gap: 3x;
   justify-content: center;
 }
 
-.card__title {
+.mb-card__title {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Rajdhani;
   font-size: 17.687px;
   font-style: normal;
   font-weight: 700;
-  line-height: 35.375px; /* 200% */
+  line-height: 35.375px;
+  /* 200% */
 }
 
-.card__person {
+.mb-card__person {
   display: flex;
   gap: 3px;
 }
 
-.person-name {
+.mb-card__person-name {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Rajdhani;
   font-size: 15.476px;
   font-style: normal;
   font-weight: 600;
-  line-height: 35.375px; /* 228.571% */
+  line-height: 35.375px;
+  /* 228.571% */
 }
 
-.person-check {
+.mb-card__person-check {
   padding: 10px 0 0 0;
 }
 
-.card__reserve {
+.mb-card__reserve {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Rajdhani;
   font-size: 11.055px;
   font-style: normal;
   font-weight: 600;
-  line-height: 35.375px; /* 320% */
+  line-height: 35.375px;
+  /* 320% */
 }
 
-.card__price {
+.mb-card__price {
   display: flex;
   gap: 3px;
 }
 
-.price-eth {
+.mb-card__price-eth {
   color: #FFF;
   font-family: Orbitron;
   font-size: 9.718px;
@@ -378,67 +384,71 @@ body {
   line-height: normal;
 }
 
-.price-dollars {
+.mb-card__price-dollars {
   color: var(--white-white-100, #FFF);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Rajdhani;
   font-size: 11.055px;
   font-style: normal;
   font-weight: 400;
-  line-height: 15.375px; /* 320% */
+  line-height: 15.375px;
+  /* 320% */
   opacity: 0.7;
 }
 
-.card__second-column {
+.mb-card__second-column {
   display: flex;
   flex-direction: column;
   gap: 3px;
   justify-content: center;
 }
 
-.card__auction {
+.mb-card__auction {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Rajdhani;
   font-size: 11.055px;
   font-style: normal;
   font-weight: 600;
-  line-height: 35.375px; /* 320% */
+  line-height: 35.375px;
+  /* 320% */
   opacity: 0.7;
 }
 
-.card__times {
+.mb-card__times {
   display: flex;
   gap: 3px;
 }
 
-.time {
+.mb-card__time {
   display: flex;
   flex-direction: column;
 }
 
-.time-first-number {
+.mb-card__time-first-number {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Rajdhani;
   font-size: 17.687px;
   font-style: normal;
   font-weight: 600;
-  line-height: 3.375px; /* 200% */
+  line-height: 3.375px;
+  /* 200% */
 }
 
-.time-first-text {
+.mb-card__time-first-text {
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Rajdhani;
   font-size: 11.055px;
   font-style: normal;
   font-weight: 500;
-  line-height: 35.375px; /* 320% */
+  line-height: 35.375px;
+  /* 320% */
   opacity: 0.7;
 }
 
-.button-place {
+.mb-card__button-place {
   width: 119.39px;
   height: 37.586px;
   justify-content: center;
@@ -456,7 +466,7 @@ body {
   -webkit-backdrop-filter: blur(106.1240844727px);
           backdrop-filter: blur(106.1240844727px);
 }
-.button-place img {
+.mb-card__button-place img {
   padding: 6px 0 0 4px;
 }
 
@@ -470,4 +480,264 @@ body {
 .logotips {
   display: flex;
   gap: 134px;
+}
+
+.top-nft__container {
+  width: 1394px;
+  padding: 220px 0 0 0;
+}
+
+.top-nft__title {
+  display: flex;
+  justify-content: space-between;
+}
+.top-nft__title h2 {
+  color: #FFF;
+  font-family: Orbitron;
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.top-nft__text {
+  display: flex;
+}
+.top-nft__text h2 {
+  color: #FFF;
+  font-family: Orbitron;
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.swiper {
+  width: 1394px;
+  height: 100%;
+}
+
+.tn-block-card-all {
+  display: flex;
+  gap: 35.37px;
+}
+
+.tn-block-card {
+  padding: 47px 0 0 0;
+}
+
+.tn-card {
+  display: flex;
+  gap: 50px;
+  border: solid 1px #fff;
+  width: 437.762px;
+  height: 236.161px;
+  fill: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.02) 104.35%);
+  stroke-width: 2.88px;
+  stroke: rgba(255, 255, 255, 0.28);
+  justify-content: center;
+  align-items: left;
+}
+
+.tn-card__first-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tn-card__first-column h3 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 23.04px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46.08px;
+  /* 200% */
+}
+.tn-card__first-column h4 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46.08px;
+  /* 320% */
+  opacity: 0.7;
+}
+
+.tn-card__person {
+  display: flex;
+}
+.tn-card__person h3 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 20.16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46.08px;
+  /* 228.571% */
+}
+
+.mb-card__price {
+  display: flex;
+  align-items: center;
+}
+.mb-card__price h3 {
+  color: #FFF;
+  font-family: Orbitron;
+  font-size: 12.659px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mb-card__price h4 {
+  color: var(--white-white-100, #FFF);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46.08px;
+  /* 320% */
+  opacity: 0.7;
+}
+
+.tn-card__second-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+.tn-card__second-column h3 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46.08px;
+  /* 320% */
+  opacity: 0.7;
+}
+
+.tn-card__times {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tn-card__time h3 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 23.04px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 46.08px;
+  /* 200% */
+  opacity: 1;
+}
+.tn-card__time h4 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46.08px;
+  /* 320% */
+  opacity: 0.7;
+}
+
+.tn-card__but-place {
+  display: flex;
+}
+.tn-card__but-place button {
+  border: 2.88px solid #FFA6FA;
+  background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+  box-shadow: 0px 5.76002px 139.68059px 0px rgba(255, 86, 246, 0.51);
+  -webkit-backdrop-filter: blur(138.2405853271px);
+          backdrop-filter: blur(138.2405853271px);
+  width: 155.521px;
+  height: 48.96px;
+  justify-content: center;
+  align-items: center;
+}
+.tn-card__but-place button h3 {
+  color: #FFF;
+  font-family: Rajdhani;
+  font-size: 23.04px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.exp-collect-first__container {
+  width: 1394px;
+}
+
+.exp-collect-first {
+  padding: 209px 0 0 0;
+  display: flex;
+}
+
+.exp-col-first-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.exp-col-first-left h2 {
+  color: #FFF;
+  font-family: Orbitron;
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.exp-col-first__buttons {
+  display: grid;
+  grid-template-rows: repeat(4, 2fr);
+}
+.exp-col-first__buttons button {
+  width: 368.118px;
+  height: 98.386px;
+  border: 2.88px solid #FFA6FA;
+  box-shadow: 0px 5.76002px 139.68059px 0px rgba(255, 86, 246, 0.51);
+  -webkit-backdrop-filter: blur(138.2405853271px);
+          backdrop-filter: blur(138.2405853271px);
+  background-color: transparent;
+}
+.exp-col-first__buttons button h3 {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.exp-col-first__buttons button:hover {
+  border-radius: 2.211px;
+  border: 2.211px solid #FFA6FA;
+  background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+  box-shadow: 0px 4.42184px 107.22955px 0px rgba(255, 86, 246, 0.51);
+  -webkit-backdrop-filter: blur(106.1240844727px);
+          backdrop-filter: blur(106.1240844727px);
+}
+.exp-col-first__buttons button:hover h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.exp-col-first__text {
+  display: flex;
+  gap: 10px;
 }/*# sourceMappingURL=style.css.map */
