@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const swiper = new Swiper('.swiper', {
     breakpoints: {
       1600: {
-        slidesPerView: 3,
-        spaceBetween: 50
+        slidesPerView: 3  ,
+        spaceBetween: 35
       },
       376: {
         slidesPerView: 1,

@@ -214,7 +214,6 @@ body {
     img {
         padding: 6px 0 0 4px;
     }
-
     background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     //stroke-width: 2.211px;
     // stroke: #FFA6FA;
@@ -560,6 +559,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 
     h3 {
         color: #FFF;
@@ -603,6 +603,7 @@ body {
 .mb-card__price {
     display: flex;
     align-items: center;
+    gap:10px;
 
     h3 {
         color: #FFF;
@@ -678,10 +679,12 @@ body {
 }
 
 .tn-card__but-place {
-    display: flex;
+    
 
 
     button {
+        display: flex;
+        gap:10px;
         border: 2.88px solid #FFA6FA;
         background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
         box-shadow: 0px 5.76002px 139.68059px 0px rgba(255, 86, 246, 0.51);
@@ -740,7 +743,7 @@ body {
         width: 368.118px;
         height: 98.386px;
         border: 2.88px solid #FFA6FA;
-        box-shadow: 0px 5.76002px 139.68059px 0px rgba(255, 86, 246, 0.51);
+       // box-shadow: 0px 5.76002px 139.68059px 0px rgba(255, 86, 246, 0.51);
         backdrop-filter: blur(138.24058532714844px);
         background-color: transparent;
 

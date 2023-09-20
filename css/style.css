@@ -586,6 +586,7 @@ body {
 .mb-card__price {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 .mb-card__price h3 {
   color: #FFF;
@@ -654,10 +655,9 @@ body {
   opacity: 0.7;
 }
 
-.tn-card__but-place {
-  display: flex;
-}
 .tn-card__but-place button {
+  display: flex;
+  gap: 10px;
   border: 2.88px solid #FFA6FA;
   background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
   box-shadow: 0px 5.76002px 139.68059px 0px rgba(255, 86, 246, 0.51);
@@ -711,7 +711,6 @@ body {
   width: 368.118px;
   height: 98.386px;
   border: 2.88px solid #FFA6FA;
-  box-shadow: 0px 5.76002px 139.68059px 0px rgba(255, 86, 246, 0.51);
   -webkit-backdrop-filter: blur(138.2405853271px);
           backdrop-filter: blur(138.2405853271px);
   background-color: transparent;
