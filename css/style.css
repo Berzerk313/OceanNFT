@@ -583,12 +583,12 @@ body {
   /* 228.571% */
 }
 
-.mb-card__price {
+.tn-card__price {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.mb-card__price h3 {
+.tn-card__price h3 {
   color: #FFF;
   font-family: Orbitron;
   font-size: 12.659px;
@@ -596,7 +596,7 @@ body {
   font-weight: 700;
   line-height: normal;
 }
-.mb-card__price h4 {
+.tn-card__price h4 {
   color: var(--white-white-100, #FFF);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Rajdhani;
