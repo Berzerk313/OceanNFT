@@ -145,6 +145,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: auto;
 }
 
 .header__logo {
@@ -200,6 +201,10 @@ body {
   letter-spacing: 0px;
   line-height: 96px;
   padding: 12px 0 0 0;
+}
+
+.mobile {
+  display: none;
 }
 
 .color {
@@ -484,317 +489,46 @@ body {
   gap: 134px;
 }
 
-.top-nft__container {
-  width: 1394px;
-  padding: 220px 0 0 0;
-}
-
-.top-nft__title {
-  display: flex;
-  justify-content: space-between;
-}
-.top-nft__title h2 {
-  color: #FFF;
-  font-family: Orbitron;
-  font-size: 26.531px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.top-nft__text {
-  padding: 0 15px 0 0;
-  display: flex;
-  gap: 17px;
-}
-.top-nft__text h2 {
-  color: #FFF;
-  font-family: Orbitron;
-  font-size: 26.531px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.swiper {
-  width: 1394px;
-  height: 100%;
-}
-
-.tn-block-card-all {
-  display: flex;
-  gap: 35.37px;
-}
-
-.tn-block-card {
-  padding: 47px 0 0 0;
-}
-
-.tn-card {
-  display: flex;
-  gap: 50px;
-  border: solid 1px #fff;
-  width: 437.762px;
-  height: 236.161px;
-  fill: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.02) 104.35%);
-  stroke-width: 2.88px;
-  stroke: rgba(255, 255, 255, 0.28);
-  justify-content: center;
-  align-items: left;
-}
-
-.tn-card__first-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.tn-card__first-column h3 {
-  color: #FFF;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Rajdhani;
-  font-size: 23.04px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 46.08px;
-  /* 200% */
-}
-.tn-card__first-column h4 {
-  color: #FFF;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Rajdhani;
-  font-size: 14.4px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 46.08px;
-  /* 320% */
-  opacity: 0.7;
-}
-
-.tn-card__person {
-  display: flex;
-}
-.tn-card__person h3 {
-  color: #FFF;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Rajdhani;
-  font-size: 20.16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 46.08px;
-  /* 228.571% */
-}
-
-.tn-card__price {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.tn-card__price h3 {
-  color: #FFF;
-  font-family: Orbitron;
-  font-size: 12.659px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.tn-card__price h4 {
-  color: var(--white-white-100, #FFF);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Rajdhani;
-  font-size: 14.4px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 46.08px;
-  /* 320% */
-  opacity: 0.7;
-}
-
-.tn-card__second-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 3px;
-}
-.tn-card__second-column h3 {
-  color: #FFF;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Rajdhani;
-  font-size: 14.4px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 46.08px;
-  /* 320% */
-  opacity: 0.7;
-}
-
-.tn-card__times {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.tn-card__time h3 {
-  color: #FFF;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Rajdhani;
-  font-size: 23.04px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 46.08px;
-  /* 200% */
-  opacity: 1;
-}
-.tn-card__time h4 {
-  color: #FFF;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Rajdhani;
-  font-size: 14.4px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 46.08px;
-  /* 320% */
-  opacity: 0.7;
-}
-
-.tn-card__but-place button {
-  display: flex;
-  gap: 10px;
-  border: 2.88px solid #FFA6FA;
-  background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
-  box-shadow: 0px 5.76002px 139.68059px 0px rgba(255, 86, 246, 0.51);
-  -webkit-backdrop-filter: blur(138.2405853271px);
-          backdrop-filter: blur(138.2405853271px);
-  width: 155.521px;
-  height: 48.96px;
-  justify-content: center;
-  align-items: center;
-}
-.tn-card__but-place button h3 {
-  color: #FFF;
-  font-family: Rajdhani;
-  font-size: 23.04px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.exp-collect-first__container {
-  width: 1394px;
-}
-
-.exp-collect-first {
-  padding: 160px 0 0 0;
-  display: flex;
-}
-
-.exp-col-first-left {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 50px 0 0 0;
-}
-.exp-col-first-left h2 {
-  color: #FFF;
-  font-family: Orbitron;
-  font-size: 26.531px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.exp-col-first__buttons {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 49.75px;
-  padding: 34px 0 0 0;
-}
-.exp-col-first__buttons button {
-  width: 368.118px;
-  height: 98.386px;
-  border: 2.88px solid #FFA6FA;
-  -webkit-backdrop-filter: blur(138.2405853271px);
-          backdrop-filter: blur(138.2405853271px);
-  background-color: transparent;
-}
-.exp-col-first__buttons button h3 {
-  color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-  font-family: Orbitron;
-  font-size: 26.531px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.exp-col-first__buttons button:hover {
-  border-radius: 2.211px;
-  border: 2.211px solid #FFA6FA;
-  background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
-  box-shadow: 0px 4.42184px 107.22955px 0px rgba(255, 86, 246, 0.51);
-  -webkit-backdrop-filter: blur(106.1240844727px);
-          backdrop-filter: blur(106.1240844727px);
-}
-.exp-col-first__buttons button:hover h3 {
-  color: #FFF;
-  text-align: center;
-  font-family: Orbitron;
-  font-size: 26.531px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.exp-col-first__text {
-  justify-content: right;
-  padding: 20px 0 0 0;
-  display: flex;
-  gap: 10px;
-}
-.exp-col-first__text h2 {
-  color: #FFF;
-  font-family: Orbitron;
-  font-size: 19.898px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.exp-col-first__woman {
-  padding: 0 0 0 130px;
-}
-
-@media (max-width: 376px) {
+@media (max-width: 375px) {
   .body {
     width: 375px;
+  }
+  .container {
+    width: 330px;
+    height: auto;
+  }
+  .block-blur {
+    width: 324px;
+    display: none;
+  }
+  .header__container {
+    width: 330px;
+    padding: 24px 0 0 0;
+  }
+  .header {
+    width: 330px;
+    height: auto;
+  }
+  .header__logo {
+    padding: 0 8px 100px 0px;
+  }
+  .header__menu, .header__icons {
+    display: none;
+  }
+  .main-block__container {
+    padding: 0 0 100px 0;
+  }
+  .main-block-logitips__container {
+    position: relative;
+    padding: 0 0 200px 0;
   }
   .main-block {
     width: 350px;
     height: auto;
   }
-  .container {
-    width: 324px;
-    height: auto;
-  }
-  .block-blur {
-    width: 324px;
-  }
-  .header__container {
-    width: 324px;
-  }
-  .header__logo-img {
-    color: rgba(255, 255, 255, 0.6);
-    font-family: Orbitron;
-    font-size: 16.128px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-  }
-  .header__menu, .header__icons {
-    visibility: 0;
-    opacity: 0;
-  }
   .left-block__title h1 {
     color: #FFF;
-    font-family: Lato;
+    font-family: "Lato";
     font-size: 42px;
     font-style: normal;
     font-weight: 700;
@@ -806,9 +540,12 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .mobile {
+    display: block;
+  }
   .left-block__text h2 {
     color: #FFF;
-    font-family: Rajdhani;
+    font-family: "Rajdhani", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -849,7 +586,8 @@ body {
     line-height: normal;
   }
   .left-block__sums {
-    gap: 100px;
+    width: 330px;
+    gap: 80px;
   }
   .left-block__sum {
     color: #FFF;
@@ -870,6 +608,28 @@ body {
     line-height: 11.797px;
     /* 98.31% */
     letter-spacing: 0.118px;
+  }
+  .right-block {
+    position: absolute;
+    top: 800px;
+    right: 20px;
+  }
+  .main-block-card {
+    top: 366px;
+    left: 50px;
+    z-index: 1;
+    width: 324px;
+    height: 174.789px;
+    border: solid 1px #fff;
+    fill: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.02) 104.35%);
+    stroke-width: 2.211px;
+    stroke: rgba(255, 255, 255, 0.28);
+    -webkit-backdrop-filter: blur(30.4001274109px);
+            backdrop-filter: blur(30.4001274109px);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
   }
   .logotips__container {
     height: auto;
@@ -895,13 +655,5 @@ body {
   .logo__fourth {
     width: 105.914px;
     height: 16.917px;
-  }
-  .top-nft__container {
-    width: 324px;
-    height: auto;
-  }
-  .top-nft {
-    width: 324px;
-    height: auto;
   }
 }/*# sourceMappingURL=style.css.map */
