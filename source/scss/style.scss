@@ -214,7 +214,7 @@ body {
     width: 249.834px;
     height: 67.117px;
     border-radius: 10px 10px 10px 10px;
-    border: solid 3px rgba(98,84,117, 0.5);
+    border: solid 3px rgba(98,84,117,0.7);
 
     span {
         padding-left: 34px;
@@ -226,11 +226,10 @@ body {
         line-height: normal;
 
     }
-
     img {
         padding: 6px 0 0 8px;
     }
-    background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+    background: linear-gradient(to left, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     //stroke-width: 2.211px;
     // stroke: #FFA6FA;
     // filter: drop-shadow(0px 4.421836853027344px 107.22954559326172px rgba(255, 86, 246, 0.51));
@@ -304,7 +303,7 @@ body {
 .right-block__monster {
     clip-path: polygon(23% 0, 100% 0, 100% 100%, 0 100%, 0 13%);
     background: lightgray 50% / cover no-repeat;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 5px 5px 5px 5px;
     
 
 }
@@ -316,7 +315,7 @@ body {
     z-index: 1;
     width: 336.06px;
     height: 181.295px;
-    border: solid 3px rgba(98,84,117, 0.5);
+ //   border: solid 3px rgba(98,84,117, 0.5);
     fill: linear-gradient(90deg, rgba(255, 255, 255, 0.10) -1.52%, rgba(255, 255, 255, 0.02) 104.35%);
     stroke-width: 2.211px;
     stroke: rgba(255, 255, 255, 0.28);
@@ -326,7 +325,7 @@ body {
     // align-items: center;
     // justify-content: center;
     clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 24%);
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 1px 1px 1px 1px;
     padding:0 0 0 10px;
 }
 
@@ -505,7 +504,7 @@ body {
     }
 
     border-radius: 2.211px;
-    border: 2.211px solid #FFA6FA;
+    border: solid 3px rgba(98,84,117,0.7);
     background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     box-shadow: 0px 4.42184px 107.22955px 0px rgba(255, 86, 246, 0.51);
     backdrop-filter: blur(106.12408447265625px);
