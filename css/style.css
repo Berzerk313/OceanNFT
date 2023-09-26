@@ -86,7 +86,8 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1394px;
+  max-width: 1424px;
+  padding: 0 15px;
 }
 
 .block-blur {
@@ -96,22 +97,22 @@ body {
 }
 
 .ellipse-first {
-  width: 267.521px;
-  height: 267.521px;
+  max-width: 267.521px;
+  max-height: 267.521px;
   flex-shrink: 0;
   border-radius: 267.521px;
   background: #4A46FF;
   position: absolute;
   top: 240px;
-  left: 1000px;
+  right: 320px;
   filter: blur(80px);
   z-index: -1;
   opacity: 0.25;
 }
 
 .ellipse-second {
-  width: 153.659px;
-  height: 153.659px;
+  max-width: 153.659px;
+  max-height: 153.659px;
   flex-shrink: 0;
   fill: #FFB1EE;
   position: absolute;
@@ -123,8 +124,8 @@ body {
 }
 
 .ellipse-third {
-  width: 271.943px;
-  height: 271.943px;
+  max-width: 271.943px;
+  max-height: 271.943px;
   flex-shrink: 0;
   border-radius: 271.943px;
   background: #FF00C8;
@@ -137,7 +138,7 @@ body {
 }
 
 .header__container {
-  width: 1388px;
+  max-width: 1388px;
   padding: 50px 0 0 0;
 }
 
@@ -173,7 +174,7 @@ body {
 }
 
 .main-block__container {
-  width: 100%;
+  max-width: 100%;
   padding: 100px 0 0 0;
   display: flex;
   align-items: center;
@@ -184,7 +185,7 @@ body {
 }
 
 .left-block {
-  width: 847.887px;
+  max-width: 847.887px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -242,9 +243,9 @@ body {
           clip-path: polygon(18% 0, 100% 0, 100% 77%, 84% 100%, 0 100%, 0 28%);
   justify-content: center;
   align-items: center;
-  width: 249.834px;
-  height: 67.117px;
-  border-radius: 10px 10px 10px 10px;
+  width: 252.834px;
+  height: 70.117px;
+  border-radius: 5px 5px 5px 5px;
   border: solid 3px rgba(98, 84, 117, 0.7);
   background: linear-gradient(to left, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
 }
@@ -277,8 +278,8 @@ body {
 }
 
 .left-block__sums {
-  width: 479.77px;
-  height: 69.64px;
+  max-width: 479.77px;
+  max-height: 69.64px;
   display: flex;
   gap: 60px;
 }
@@ -330,17 +331,13 @@ body {
   z-index: 1;
   width: 336.06px;
   height: 181.295px;
-  fill: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.02) 104.35%);
-  stroke-width: 2.211px;
-  stroke: rgba(255, 255, 255, 0.28);
-  -webkit-backdrop-filter: blur(30.4001274109px);
-          backdrop-filter: blur(30.4001274109px);
-  display: flex;
-  gap: 46px;
+  background-image: url(../img/Main-Block/Card.png);
   -webkit-clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 24%);
           clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 24%);
   border-radius: 1px 1px 1px 1px;
-  padding: 0 0 0 10px;
+  padding: 2px 0 0px 13px;
+  display: flex;
+  gap: 46px;
 }
 
 .mb-card__first-column {
@@ -479,8 +476,8 @@ body {
 }
 
 .mb-card__button-place {
-  width: 119.39px;
-  height: 37.586px;
+  width: 122.39px;
+  height: 40.586px;
   justify-content: center;
   align-items: center;
   color: #FFF;
@@ -500,19 +497,43 @@ body {
 }
 
 .logotips__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 100%;
   padding: 170px 0 0 0;
 }
 
 .logotips {
+  max-width: 100%;
   display: flex;
-  gap: 134px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
+.logo {
+  max-width: 100%;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 100%;
+    max-width: 1110px;
+  }
+  .logo {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 600px;
+  }
+  .right-block {
+    padding: 30px 0 0 0;
+  }
+  .main-block-card {
+    left: 100px;
+  }
+}
 @media (max-width: 375px) {
   .body {
     width: 375px;
@@ -520,6 +541,7 @@ body {
   .container {
     width: 330px;
     height: auto;
+    padding: 0 0px;
   }
   .block-blur {
     width: 324px;
@@ -585,7 +607,7 @@ body {
     align-items: center;
     display: flex;
     gap: 0px;
-    padding: 14px 0 0 10px;
+    padding: 14px 0 0 7px;
   }
   .button-explore {
     width: 137.309px;
@@ -596,7 +618,8 @@ body {
     filter: drop-shadow(0px 2.3594470024px 57.216594696px rgba(255, 86, 246, 0.51));
     -webkit-backdrop-filter: blur(56.6267318726px);
             backdrop-filter: blur(56.6267318726px);
-    padding-right: 10px;
+    padding-left: 6px;
+    border-radius: 0;
   }
   .button-explore span {
     color: #FFF;
@@ -605,14 +628,15 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-left: 0;
   }
   .button-explore img {
     width: 27.724px;
     height: 18.258px;
-    padding: 0 0 4px 0;
+    padding: 0 0px 0px 0px;
   }
   .button-create {
-    padding: 0 30px 32px 0;
+    padding: 0 26px 32px 0;
   }
   .button-create span {
     font-family: Orbitron;
@@ -658,12 +682,7 @@ body {
     z-index: 1;
     width: 324px;
     height: 174.789px;
-    border: solid 3px rgba(98, 84, 117, 0.5);
-    fill: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.02) 104.35%);
-    stroke-width: 2.211px;
-    stroke: rgba(255, 255, 255, 0.28);
-    -webkit-backdrop-filter: blur(30.4001274109px);
-            backdrop-filter: blur(30.4001274109px);
+    background-image: url(../img/Main-Block/Card-mobile.png);
     display: flex;
     gap: 40px;
   }
@@ -677,6 +696,9 @@ body {
     gap: 40px;
     align-items: center;
     justify-content: center;
+  }
+  .logo {
+    padding: 0;
   }
   .logo__first {
     width: 143.077px;
