@@ -331,13 +331,23 @@ body {
   z-index: 1;
   width: 336.06px;
   height: 181.295px;
-  background-image: url(../img/Main-Block/Card.png);
-  -webkit-clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 24%);
-          clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 24%);
   border-radius: 1px 1px 1px 1px;
-  padding: 2px 0 0px 13px;
+}
+.main-block-card__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.main-block-card__wrapper {
   display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
   gap: 46px;
+  padding: 2px 0 0px 13px;
 }
 
 .mb-card__first-column {
@@ -513,6 +523,222 @@ body {
   max-width: 100%;
 }
 
+.top-nft__container {
+  width: 1394px;
+  padding: 216px 0 0 6px;
+}
+
+.top-nft__title {
+  display: flex;
+  justify-content: space-between;
+}
+.top-nft__title h2 {
+  color: #FFF;
+  font-family: "Orbitron";
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.top-nft__text {
+  padding: 0 15px 0 0;
+  display: flex;
+  gap: 17px;
+}
+.top-nft__text h2 {
+  color: #FFF;
+  font-family: "Orbitron";
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.swiper {
+  width: 1394px;
+  height: 100%;
+}
+
+.tn-block-card-all {
+  display: flex;
+  gap: 35.37px;
+}
+
+.tn-block-card {
+  padding: 47px 0 0 0;
+}
+
+.tn-card {
+  display: flex;
+  width: 437.762px;
+  height: 236.161px;
+}
+.tn-card__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.tn-card__wrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  gap: 34px;
+  padding: 0px 0 0px 14px;
+  justify-content: center;
+  align-items: left;
+}
+
+.tn-card__first-column {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 0px 0 0px;
+}
+.tn-card__first-column h3 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Rajdhani";
+  font-size: 23.04px;
+  font-style: normal;
+  font-weight: 700;
+  /* 200% */
+}
+.tn-card__first-column h4 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Rajdhani";
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 600;
+  /* 320% */
+  opacity: 0.7;
+  padding: 28px 0 0 0;
+}
+
+.tn-card__person {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 14px 20px 0 0;
+}
+.tn-card__person h3 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Rajdhani;
+  font-size: 20.16px;
+  font-style: normal;
+  font-weight: 600;
+  /* 228.571% */
+}
+.tn-card__price {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 0px 0 0px;
+}
+.tn-card__price img {
+  width: 25.317px;
+  height: 25.317px;
+}
+.tn-card__price h3 {
+  color: #FFF;
+  font-family: Orbitron;
+  font-size: 12.659px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0;
+}
+.tn-card__price h4 {
+  color: var(--white-white-100, #FFF);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Rajdhani";
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 400;
+  /* 320% */
+  opacity: 0.7;
+  padding: 0;
+}
+
+.tn-card__second-column {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 52px 0 0 0px;
+}
+.tn-card__second-column h3 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Rajdhani";
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 600;
+  /* 320% */
+  opacity: 0.7;
+}
+
+.tn-card__times {
+  display: flex;
+  gap: 25px;
+  padding: 10px 0 0 0;
+}
+
+.tn-card__time {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.tn-card__time h3 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Rajdhani";
+  font-size: 23.04px;
+  font-style: normal;
+  font-weight: 600;
+  /* 200% */
+  opacity: 1;
+}
+.tn-card__time h4 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Rajdhani";
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 500;
+  /* 320% */
+  opacity: 0.7;
+}
+
+.tn-card__but-place {
+  padding: 36px 0px 0 0;
+}
+.tn-card__but-place button {
+  display: flex;
+  gap: 10px;
+  border: 2.88px solid #FFA6FA;
+  background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+  box-shadow: 0px 5.76002px 139.68059px 0px rgba(255, 86, 246, 0.51);
+  -webkit-backdrop-filter: blur(138.2405853271px);
+          backdrop-filter: blur(138.2405853271px);
+  width: 155.521px;
+  height: 53.96px;
+  justify-content: center;
+  align-items: center;
+}
+.tn-card__but-place button h3 {
+  color: #FFF;
+  font-family: "Rajdhani";
+  font-size: 23.04px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 @media (max-width: 1440px) {
   .container {
     width: 100%;
@@ -558,7 +784,8 @@ body {
   .header__logo {
     padding: 0 8px 0 0px;
   }
-  .header__menu, .header__icons {
+  .header__menu,
+  .header__icons {
     display: none;
   }
   .main-block__container {
