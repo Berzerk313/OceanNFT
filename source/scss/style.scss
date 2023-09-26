@@ -1158,11 +1158,11 @@ body {
 
     .main-block-card {
         top: 366px;
-        left: 54px;
+        left: 0px;
         z-index: 1;
         width: 324px;
         height: 174.789px;
-        background-image: url(../img/Main-Block/Card-mobile.png);
+        //background-image: url(../img/Main-Block/Card-mobile.png);
         // border: solid 3px rgba(98,84,117, 0.5);
         // fill: linear-gradient(90deg, rgba(255, 255, 255, 0.10) -1.52%, rgba(255, 255, 255, 0.02) 104.35%);
         // stroke-width: 2.211px;
@@ -1170,8 +1170,22 @@ body {
         // backdrop-filter: blur(30.400127410888672px);
         display: flex;
         gap: 40px;
+        &__bg {
+
+        }
+    
+        &__wrapper {
+            gap: 0px;
+
+        }
 
     }
+        // .mb-card__first-column{
+        //     padding: 0;
+        // }
+        .mb-card__second-column{
+            padding-left: 40px;
+        }
 
     .logotips__container {
         height: auto;

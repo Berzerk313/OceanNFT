@@ -905,13 +905,18 @@ body {
   }
   .main-block-card {
     top: 366px;
-    left: 54px;
+    left: 0px;
     z-index: 1;
     width: 324px;
     height: 174.789px;
-    background-image: url(../img/Main-Block/Card-mobile.png);
     display: flex;
     gap: 40px;
+  }
+  .main-block-card__wrapper {
+    gap: 0px;
+  }
+  .mb-card__second-column {
+    padding-left: 40px;
   }
   .logotips__container {
     height: auto;
