@@ -943,4 +943,12 @@ body {
     width: 105.914px;
     height: 16.917px;
   }
+  .top-nft__container {
+    width: 324px;
+    height: auto;
+  }
+  .top-nft {
+    width: 324px;
+    height: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
