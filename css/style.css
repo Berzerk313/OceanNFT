@@ -914,9 +914,6 @@ body {
   .main-block-card__wrapper {
     gap: 0px;
   }
-  .mb-card__second-column {
-    padding-left: 40px;
-  }
   .logotips__container {
     height: auto;
     padding: 20px 0 0px 0;
