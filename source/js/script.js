@@ -1,21 +1,38 @@
 document.addEventListener('DOMContentLoaded', function () {
   const swiper = new Swiper('.swiper', {
     breakpoints: {
-      1600: {
-        slidesPerView: 3  ,
-        spaceBetween: 35
-      },
       375: {
-        slidesPerView: 1.2,
-        spaceBetween: 10
-      }
+        slidesPerView: 1.1,
+        spaceBetween: 20,
+        centerSlides: 'true',
+      },
+      768: {
+          slidesPerView: 1.5,
+          spaceBetween: 5,
+      },
+      1110: {
+        slidesPerView: 2.1,
+        spaceBetween: 5,
+    }, 
+      1440: {
+          slidesPerView: 2.8,
+          spaceBetween: 5,
+      }, 
+      1600: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+    }, 
+      
+
     },
     autoplay: {
       delay: 1000,
     },
+    loop: true
   });
 });
 console.log(333);
+
 
 /*
 const swiper = new Swiper('.swiper', {

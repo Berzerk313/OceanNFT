@@ -27,10 +27,37 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Rajdhani&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
 </head>
 
 <body>
 
+  <div class="master-container__wrapper">
+    <div class="master-container">
+      <picture>
+        <source srcset="./img/Header/OceanNFT-mobile.svg" media="(max-width: 375px)" class="header__logo-img-mob">
+        <img src="./img/Header/OceanNFT.svg" alt="Oops" class="header__logo-img">
+      </picture>
+      <div class="burger-menu">
+        <div class="bar">
+          <span class="bar-1"> </span>
+          <span class="bar-2"> </span>
+          <span class="bar-3"> </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu">
+      <li><a href="#">Market</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Community</a></li>
+      <li><a href="#"><img src="./img/Header/akar-icons_cart.svg" alt="Oops" class="header__icons-shop-img"></a>
+      </li>
+      <li><a href="#"><img src="./img/Header/Group.svg" alt="Oops" class="header__icons-account-img"></a></li>
+    </div>
+  </div>
 
   <div class="container">
 
@@ -126,7 +153,7 @@
                   <source srcset="./img/Main-Block/Card-mobile.png" media="(max-width: 376px)">
                   <img src="./img/Main-Block/Card.png" alt="Oops" class="main-block-card__bg">
                 </picture>
-                
+
                 <div class="mb-card__first-column">
                   <div class="mb-card__title">3D Abstract Hand</div>
                   <div class="mb-card__person">
@@ -205,16 +232,16 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="tn-block-card">
-                  <img src="./img/Top-NFTs-now/Monster-first.png" alt="Oops">
+                  <img src="./img/Top-NFTs-now/Monster-first.png" alt="Oops" class="tn-block-card__image">
                   <div class="tn-card">
                     <div class="tn-card__wrapper">
                       <img src="./img/Top-NFTs-now/first-border.svg" alt="Oops" class="tn-card__bg">
                       <div class="tn-card__first-column">
                         <h3>Apollo Eth #1289 NFT</h3>
                         <div class="tn-card__person">
-                          <img src="./img/Top-NFTs-now/face-top-first.svg" alt="Oops">
+                          <img src="./img/Top-NFTs-now/face-top-first.svg" alt="Oops" class="tn-card__person-face">
                           <h3>@jhonartist</h3>
-                          <img src="./img/Top-NFTs-now/check.svg" alt="Oops">
+                          <img src="./img/Top-NFTs-now/check.svg" alt="Oops" class="tn-card__person-check">
                         </div>
                         <h4>Reserve price</h4>
                         <div class="tn-card__price">
@@ -252,7 +279,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="tn-block-card">
-                  <img src="./img/Top-NFTs-now/Monster-second.png" alt="Oops">
+                  <img src="./img/Top-NFTs-now/Monster-second.png" alt="Oops" class="tn-block-card__image">
                   <div class="tn-card">
                     <div class="tn-card__wrapper">
                       <img src="./img/Top-NFTs-now/first-border.svg" alt="Oops" class="tn-card__bg">
@@ -299,7 +326,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="tn-block-card">
-                  <img src="./img/Top-NFTs-now/Monster-third.png" alt="Oops">
+                  <img src="./img/Top-NFTs-now/Monster-third.png" alt="Oops" class="tn-block-card__image">
                   <div class="tn-card">
                     <div class="tn-card__wrapper">
                       <img src="./img/Top-NFTs-now/first-border.svg" alt="Oops" class="tn-card__bg">
@@ -346,7 +373,7 @@
               </div>
               <div class="swiper-slide">
                 <div class="tn-block-card">
-                  <img src="./img/Top-NFTs-now/Monster-first.png" alt="Oops">
+                  <img src="./img/Top-NFTs-now/Monster-first.png" alt="Oops" class="tn-block-card__image">
                   <div class="tn-card">
                     <div class="tn-card__wrapper">
                       <img src="./img/Top-NFTs-now/first-border.svg" alt="Oops" class="tn-card__bg">
@@ -471,12 +498,10 @@
 
 
 
-
-
-
   </div>
 
   <script src="./source/js/script.js"></script>
+  <script src="./source/js/burger.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.js"></script>
 </body>
 

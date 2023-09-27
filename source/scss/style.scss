@@ -16,7 +16,7 @@
 body {
     width: 100%;
     height: auto;
-    background: rgba(34, 13, 60);
+    background: rgba(37,17,67);
     //backdrop-filter: blur(92.30584716796875px);
     //background-image: url(/img/MainBackground/Background.png);
     //background-repeat: no-repeat;
@@ -133,6 +133,122 @@ body {
 .header__icons-account {}
 
 .header__icons-account-img {}
+
+.master-container__wrapper{
+    display: none;
+}
+
+////////////////////////////////////
+
+.header__logo-img-mob{
+}
+
+.menu {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(38,26,84);
+    z-index: 9999;
+    display: none;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu li {
+
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-decoration: none;
+    list-style-type: none;
+
+
+}
+
+.menu li a {
+
+    padding-top: 3em;
+    text-decoration: none;
+    color: white;
+
+}
+
+.master-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(36,16,67);
+    overflow: visible;
+    padding: 0 45px;
+    margin-bottom: 30px;
+}
+
+
+.burger-menu {
+    margin-top: 25px;
+    cursor: pointer;
+
+}
+
+
+.bar {
+
+    transition: 0.4s;
+
+}
+
+
+
+.bar-1 {
+
+    width: 5em;
+    display: block;
+    width: 40px;
+    border-top: 6px solid white;
+    padding-top: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+
+.bar-2 {
+    width: 5em;
+    display: block;
+    width: 20px;
+    border-top: 6px solid white;
+    padding-top: 5px;
+    display: fixed;
+    transition: 0.4s;
+}
+
+
+.bar-3 {
+
+    width: 5em;
+    display: block;
+    width: 40px;
+    border-top: 6px solid white;
+    padding-top: 5px;
+    transition: 0.4s;
+
+}
+
+
+.change .bar-1 {
+
+    -webkit-transform: rotate(-45deg) translate(-10px, 5px);
+    transform: rotate(-45deg) translate(-10px, 8px);
+}
+
+.change .bar-2 {
+    opacity: 0;
+}
+
+.change .bar-3 {
+    -webkit-transform: rotate(45deg) translate(-10px, 5px);
+    transform: rotate(45deg) translate(-10px, -5px);
+}
 
 ////////////////////////////////////
 
@@ -631,7 +747,7 @@ body {
 
 .tn-card {
     display: flex;
-   // gap: 40px;
+    // gap: 40px;
     width: 437.762px;
     height: 236.161px;
     // border: solid 1px #fff;
@@ -639,7 +755,7 @@ body {
     // stroke-width: 2.88px;
     // stroke: rgba(255, 255, 255, 0.28);
     //background-image: url(/img/Top-NFTs-now/second-border.svg);
-    
+
     &__bg {
         position: absolute;
         top: 0;
@@ -675,7 +791,7 @@ body {
         font-size: 23.04px;
         font-style: normal;
         font-weight: 700;
-        
+
         // line-height: 46.08px;
         /* 200% */
     }
@@ -697,9 +813,9 @@ body {
 .tn-card__person {
     display: flex;
     align-items: center;
-    gap:4px;
+    gap: 4px;
     padding: 14px 20px 0 0;
-    
+
 
     h3 {
         color: #FFF;
@@ -711,8 +827,8 @@ body {
         //line-height: 46.08px;
         /* 228.571% */
     }
-    img{
-    }
+
+    img {}
 }
 
 .tn-card__price {
@@ -721,10 +837,11 @@ body {
     gap: 6px;
     padding: 12px 0px 0 0px;
 
-    img{
+    img {
         width: 25.317px;
         height: 25.317px;
     }
+
     h3 {
         color: #FFF;
         font-family: Orbitron;
@@ -770,7 +887,7 @@ body {
 
 .tn-card__times {
     display: flex;
-   // justify-content: center;
+    // justify-content: center;
     gap: 25px;
     padding: 10px 0 0 0;
 }
@@ -778,7 +895,7 @@ body {
 .tn-card__time {
     display: flex;
     flex-direction: column;
-    gap:3px;
+    gap: 3px;
 
     h3 {
         color: #FFF;
@@ -930,12 +1047,26 @@ body {
 @media (max-width: 1440px) {
     .container {
         width: 100%;
-        max-width: 1110px;
+        max-width: 1310px;
 
     }
 
     .logo {
         padding: 10px;
+    }
+
+    .main-block-card{
+        left: 140px;
+    }
+
+    .top-nft__title {
+        width: 100%;
+        max-width: 1310px;
+    }
+
+    .top-nft__container {
+        width: 100%;
+        max-width: 1310px;
     }
 }
 
@@ -961,23 +1092,64 @@ body {
 @media (max-width: 768px) {
     .container {
         width: 100%;
-        max-width: 600px;
+        max-width: 728px;
+    }
+
+    .header__container {
+        display: none;
+    }
+
+    .master-container__wrapper{
+        display: block;
+    }
+
+    .block-blur {
+        width: 324px;
+        display: none;
+    }
+
+    .logotips {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
     }
 
     .right-block {
-        padding: 30px 0 0 0;
+        position: absolute;
+        top: 1162px;
+        right: 180px;
     }
 
     .main-block-card {
-        left: 100px;
+        left: 210px;
     }
+
+    .top-nft__container {
+        padding-top: 668px;
+    }
+
+    .tn-card__first-column {
+        h3 {
+            font-size: 18px;
+        }
+    }
+
 }
+
+
+
+
 
 @media (max-width: 375px) {
     .body {
         width: 375px;
     }
 
+    .master-container{
+        padding: 0 25px;
+    }
 
     .container {
         width: 330px;
@@ -1005,13 +1177,12 @@ body {
 
     }
 
-    .header__menu,
-    .header__icons {
+    .header__container {
         display: none;
     }
 
     .main-block__container {
-        padding: 60px 0 10px 0;
+        padding: 18px 0 10px 0;
     }
 
     .main-block-logitips__container {
@@ -1158,7 +1329,7 @@ body {
 
     .main-block-card {
         top: 366px;
-        left: 0px;
+        left: 54px;
         z-index: 1;
         width: 324px;
         height: 174.789px;
@@ -1169,23 +1340,38 @@ body {
         // stroke: rgba(255, 255, 255, 0.28);
         // backdrop-filter: blur(30.400127410888672px);
         display: flex;
-      //  gap: 40px;
-        &__bg {
 
-        }
-    
+        //  gap: 40px;
+        &__bg {}
+
         &__wrapper {
             gap: 0px;
 
         }
 
     }
-        // .mb-card__first-column{
-        //     padding: 0;
-        // }
-        .mb-card__second-column{
-           // padding-left: 40px;
-        }
+
+    // .mb-card__first-column{
+    //     padding: 0;
+    // }
+    .mb-card__second-column {
+        padding: 38px 0px 0 18px;
+        gap: 0;
+        align-items: center;
+    }
+
+    .mb-card__auction {
+        padding: 0 8px 0 0;
+    }
+
+    .mb-card__times {
+        padding: 8px 0 0 22px;
+        gap: 18px;
+    }
+
+    .mb-card__but-place {
+        padding: 28px 0px 0 20px;
+    }
 
     .logotips__container {
         height: auto;
@@ -1230,43 +1416,162 @@ body {
     ///////////////////////////////
 
     .top-nft__container {
-        width: 324px;
+        width: 374px;
         height: auto;
-        padding: 680px 0 0 0;
+        padding: 668px 0 0 4px;
     }
+
     .top-nft {
         width: 324px;
         height: auto;
+
     }
+
+    .tn-block-card__image {
+        //aspect-ratio: 1/1;
+        // width: 100%;
+        //height: 100%;
+        width: 303.971px;
+        height: 267.126px;
+    }
+
+    .tn-card__bg {
+        // width: 100%;
+        // height: 100%;
+        width: 303.971px;
+        height: 163.985px;
+    }
+
     .top-nft__title {
+        h2 {
+            padding: 16px 0 0 0;
+            width: 169.388px;
+            height: 23.526px;
+            font-size: 16px;
+        }
+
     }
+
     .top-nft__text {
+        display: none;
     }
-    .tn-block-card-all {
+
+    .tn-block-card-all {}
+
+    .swiper {}
+
+    .swiper-wrapper {}
+
+    .swiper-slide {}
+
+    .tn-block-card {}
+
+    .tn-card {}
+
+    .tn-card__wrapper {
+        gap: 5px;
+        justify-content: left;
     }
-    .swiper {
-    }
-    .swiper-wrapper {
-    }
-    .swiper-slide {
-    }
-    .tn-block-card {
-    }
-    .tn-card {
-    }
+
     .tn-card__first-column {
+        padding: 35px 0 0 8px;
+
+        h3 {
+            font-size: 13.601px;
+        }
+
+        h4 {
+            padding: 20px 0 0 0;
+            font-size: 8.5px;
+        }
     }
+
     .tn-card__person {
+        padding: 12px 0 0px 0;
+        gap: 6px;
+
+        h3 {
+            padding: 0 0 0 1px;
+            font-size: 11.901px;
+        }
+
+        &-face {
+            width: 25.998px;
+            height: 25.998px;
+        }
+
+        &-check {
+            width: 10.999px;
+            height: 11.999px;
+
+        }
     }
+
     .tn-card__price {
+        padding: 8px 14px 0px 0;
+        gap: 6px;
+
+        img {
+            width: 17.58px;
+            height: 17.58px;
+        }
+
+        h3 {
+            padding: 0px;
+            font-size: 7.472px;
+        }
+
+        h4 {
+            padding: 4px 0 00 0;
+            font-size: 8.5px;
+        }
     }
+
     .tn-card__second-column {
+        padding: 37px 0 0 0px;
+        gap: 0;
+        align-items: center;
+
+        h3 {
+            // padding-right: 10px ;
+            font-size: 8.5px;
+        }
     }
+
     .tn-card__times {
+        padding: 0 0 0 26px;
+        gap: 14px;
     }
+
     .tn-card__time {
+        padding: 12px 0 0 10px;
+
+        h3 {
+            font-size: 13.601px
+        }
+
+        h4 {
+            font-size: 8.5px;
+        }
     }
+
     .tn-card__but-place {
+        padding: 30px 0 0 30px;
+
+        button {
+            width: 107.99px;
+            height: 33.997px;
+
+            h3 {
+                font-size: 13.601px;
+                color: #FFF;
+            }
+
+            img {
+                width: 21.998px;
+                height: 8.34px;
+            }
+        }
     }
 
 
