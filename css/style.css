@@ -990,6 +990,34 @@ body {
   .tn-card__first-column h3 {
     font-size: 18px;
   }
+  .exp-collect-first__container {
+    width: 698px;
+  }
+  .exp-collect-first {
+    width: 698px;
+    display: flex;
+    flex-direction: column;
+  }
+  .exp-col-first__buttons {
+    grid-template-columns: repeat(2, 0fr);
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+  .exp-col-first__buttons button {
+    width: 240.517px;
+    height: 60.763px;
+  }
+  .exp-col-first__buttons button h3 {
+    font-size: 16.992px;
+  }
+  .exp-col-first__buttons button:hover {
+    width: 152.517px;
+    height: 40.763px;
+  }
+  .exp-col-first__buttons button:hover h3 {
+    font-size: 10.992px;
+  }
 }
 @media (max-width: 375px) {
   .body {
@@ -1344,5 +1372,8 @@ body {
   .exp-col-first__text img {
     width: 21.526px;
     height: 6.412px;
+  }
+  .exp-col-first__woman {
+    padding: 0 0 0 70px;
   }
 }/*# sourceMappingURL=style.css.map */

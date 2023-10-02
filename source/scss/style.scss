@@ -1158,6 +1158,45 @@ body {
         }
     }
 
+    .exp-col-first-left{
+        h2{
+            //padding-right: 200px;
+        }
+    }
+
+    .exp-collect-first__container{
+        width: 698px;   
+    }
+
+    .exp-collect-first{
+        width: 698px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .exp-col-first__buttons{
+        grid-template-columns: repeat(2, 0fr);
+        gap:25px;
+        align-items: center;
+        justify-content: center;
+        button{
+            width: 240.517px;
+            height: 60.763px;
+            h3{
+                font-size: 16.992px;
+            }
+            &:hover{
+                width: 152.517px;
+                height: 40.763px;
+                h3{
+                    font-size: 10.992px;
+                }
+            }
+        }
+    }
+
+
 }
 
 
@@ -1643,7 +1682,7 @@ body {
         }
     }
     .exp-col-first__woman {
-        //padding-right: 100px;
+        padding: 0 0 0 70px;
     }
 
 
