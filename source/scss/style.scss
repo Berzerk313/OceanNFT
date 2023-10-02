@@ -16,7 +16,7 @@
 body {
     width: 100%;
     height: auto;
-    background: rgba(37,17,67);
+    background: rgba(37, 17, 67);
     //backdrop-filter: blur(92.30584716796875px);
     //background-image: url(/img/MainBackground/Background.png);
     //background-repeat: no-repeat;
@@ -134,19 +134,18 @@ body {
 
 .header__icons-account-img {}
 
-.master-container__wrapper{
+.master-container__wrapper {
     display: none;
 }
 
 ////////////////////////////////////
 
-.header__logo-img-mob{
-}
+.header__logo-img-mob {}
 
 .menu {
     height: 100vh;
     width: 100%;
-    background-color: rgb(38,26,84);
+    background-color: rgb(38, 26, 84);
     z-index: 9999;
     display: none;
     text-align: center;
@@ -177,7 +176,7 @@ body {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background: rgb(36,16,67);
+    background: rgb(36, 16, 67);
     overflow: visible;
     padding: 0 45px;
     margin-bottom: 30px;
@@ -694,6 +693,10 @@ body {
     padding: 216px 0 0 6px;
 }
 
+.tn-card__but-explore-block {
+    display: none;
+}
+
 .top-nft {}
 
 .top-nft__title {
@@ -951,7 +954,7 @@ body {
     }
 }
 
-.tn-card__but-explore{
+.tn-card__but-explore {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -959,7 +962,8 @@ body {
     width: 133.309px;
     height: 34.212px;
     background-color: transparent;
-    h3{
+
+    h3 {
         color: #FFF;
         font-family: Orbitron;
         font-size: 12px;
@@ -967,7 +971,8 @@ body {
         font-weight: 700;
         line-height: normal;
     }
-    img{
+
+    img {
         width: 27.724px;
         height: 8.258px;
     }
@@ -1066,6 +1071,149 @@ body {
 
 /////////////////////////
 
+.exp-col-second__container {}
+
+.exp-col-second {
+    width: 1394px;
+}
+
+.exp-col-sec__title {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+        color: #FFF;
+        font-family: 'Orbitron';
+        font-size: 26.531px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.exp-col-sec__text {
+    display: flex;
+
+    h2 {
+        color: #FFF;
+        font-family: 'Orbitron';
+        font-size: 26.531px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+.exp-col-sec__card-all {}
+
+.swiper {}
+
+.swiper-wrapper {}
+
+.swiper-slide {}
+
+.ec-block-card {}
+
+.ec-card__bg {}
+
+.ec-card__user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        color: #FFF;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Rajdhani';
+        font-size: 24.32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 46.08px;
+        /* 189.474% */
+    }
+
+    &-face-img {
+        width: 162.503px;
+        height: 162.503px;
+    }
+}
+
+.en-card__user-login {
+    display: flex;
+
+    h4 {
+        color: #FFB1EE;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Rajdhani';
+        font-size: 20.16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 46.08px;
+        /* 228.571% */
+    }
+}
+
+.ec-card__numbers {
+    display: flex;
+}
+
+.ec-card__number {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        color: #FFF;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Rajdhani';
+        font-size: 31.69px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 63.379px;
+        /* 200% */
+    }
+
+    h4 {
+        color: #FFF;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Rajdhani';
+        font-size: 19.806px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 63.379px;
+        /* 320% */
+    }
+}
+
+.ec-card__but-follow {
+    justify-content: center;
+    align-items: center;
+
+    button {
+        width: 234.84px;
+        height: 50.851px;
+        border: 2.409px solid #FFA6FA;
+        background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+        box-shadow: 0px 4.81747px 116.82378px 0px rgba(255, 86, 246, 0.51);
+        backdrop-filter: blur(115.61940002441406px);
+
+        h3 {
+            color: #FFF;
+            text-align: center;
+            font-family: 'Rajdhani';
+            font-size: 19.898px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+}
+
+/////////////////////////
+
 @media (max-width: 1440px) {
     .container {
         width: 100%;
@@ -1077,7 +1225,7 @@ body {
         padding: 10px;
     }
 
-    .main-block-card{
+    .main-block-card {
         left: 140px;
     }
 
@@ -1090,26 +1238,21 @@ body {
         width: 100%;
         max-width: 1310px;
     }
+
+    .tn-card__but-explore-block {
+        display: none;
+    }
+
+    .exp-col-second__container{
+        width: 100%;
+        max-width: 1310px;
+    }
+    .exp-col-second{
+        width: 100%;
+        max-width: 1310px;
+    }
 }
 
-// @media  (max-width: 1320px){
-//     .container{
-//         width: 100%;
-//         max-width: 960px;
-
-//     } 
-// }
-
-// @media  (max-width: 1140px){
-//     .container{
-//         width: 100%;
-//         max-width: 1100px;
-
-//     } 
-//     .main-block-card{
-//         left:130px;
-//     }
-// }
 
 @media (max-width: 768px) {
     .container {
@@ -1121,7 +1264,7 @@ body {
         display: none;
     }
 
-    .master-container__wrapper{
+    .master-container__wrapper {
         display: block;
     }
 
@@ -1152,44 +1295,52 @@ body {
         padding-top: 668px;
     }
 
+    .tn-card__but-explore-block {
+        display: none;
+    }
+
     .tn-card__first-column {
         h3 {
             font-size: 18px;
         }
     }
 
-    .exp-col-first-left{
-        h2{
+    .exp-col-first-left {
+        h2 {
             //padding-right: 200px;
         }
     }
 
-    .exp-collect-first__container{
-        width: 698px;   
+    .exp-collect-first__container {
+        width: 698px;
     }
 
-    .exp-collect-first{
+    .exp-collect-first {
         width: 698px;
         display: flex;
         flex-direction: column;
-        
+
     }
 
-    .exp-col-first__buttons{
+    .exp-col-first__buttons {
         grid-template-columns: repeat(2, 0fr);
-        gap:25px;
+        gap: 25px;
         align-items: center;
         justify-content: center;
-        button{
+
+        button {
             width: 240.517px;
             height: 60.763px;
-            h3{
+
+            h3 {
                 font-size: 16.992px;
             }
-            &:hover{
+
+            &:hover {
                 width: 152.517px;
                 height: 40.763px;
-                h3{
+
+                h3 {
                     font-size: 10.992px;
                 }
             }
@@ -1202,13 +1353,12 @@ body {
 
 
 
-
 @media (max-width: 375px) {
     .body {
         width: 375px;
     }
 
-    .master-container{
+    .master-container {
         padding: 0 25px;
     }
 
@@ -1482,6 +1632,10 @@ body {
         padding: 668px 0 0 4px;
     }
 
+    .tn-card__but-explore-block {
+        display: block;
+    }
+
     .top-nft {
         width: 324px;
         height: auto;
@@ -1637,53 +1791,69 @@ body {
         }
     }
 
+    /////////////////////////////
+
     .exp-collect-first__container {
         width: 324px;
     }
+
     .exp-collect-first {
         padding: 28px 0 0 0px;
         display: flex;
         flex-direction: column;
         width: 324px;
     }
+
     .exp-col-first-left {
-        h2{
+        h2 {
             padding-left: 5px;
             font-size: 16px;
         }
     }
+
     .exp-col-first__buttons {
-        padding: 12px 0px 0 0   ;
-        gap:18px;
+        padding: 12px 0px 0 0;
+        gap: 18px;
         width: 324px;
-        button{
+
+        button {
             width: 154.517px;
             height: 40.763px;
-            h3{
+
+            h3 {
                 font-size: 10.992px;
             }
-            &:hover{
+
+            &:hover {
                 width: 152.517px;
                 height: 40.763px;
-                h3{
+
+                h3 {
                     font-size: 10.992px;
                 }
             }
         }
     }
+
     .exp-col-first__text {
-        padding:10px 0 0 10px;
-        h2{
+        padding: 10px 0 0 10px;
+
+        h2 {
             font-size: 8.244px
         }
-        img{
+
+        img {
             width: 21.526px;
             height: 6.412px;
         }
     }
+
     .exp-col-first__woman {
         padding: 0 0 0 70px;
     }
+
+    ////////////////////
+
 
 
 }

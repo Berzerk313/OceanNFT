@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
     autoplay: {
       delay: 1000,
     },
-    loop: true
+    loop: true,
   });
 });
 console.log(333);

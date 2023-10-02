@@ -617,6 +617,10 @@ body {
   padding: 216px 0 0 6px;
 }
 
+.tn-card__but-explore-block {
+  display: none;
+}
+
 .top-nft__title {
   display: flex;
   justify-content: space-between;
@@ -934,6 +938,125 @@ body {
   padding: 0 0 0 130px;
 }
 
+.exp-col-second {
+  width: 1394px;
+}
+
+.exp-col-sec__title {
+  display: flex;
+  justify-content: space-between;
+}
+.exp-col-sec__title h2 {
+  color: #FFF;
+  font-family: "Orbitron";
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.exp-col-sec__text {
+  display: flex;
+}
+.exp-col-sec__text h2 {
+  color: #FFF;
+  font-family: "Orbitron";
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ec-card__user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ec-card__user h3 {
+  color: #FFF;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Rajdhani";
+  font-size: 24.32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46.08px;
+  /* 189.474% */
+}
+.ec-card__user-face-img {
+  width: 162.503px;
+  height: 162.503px;
+}
+
+.en-card__user-login {
+  display: flex;
+}
+.en-card__user-login h4 {
+  color: #FFB1EE;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Rajdhani";
+  font-size: 20.16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 46.08px;
+  /* 228.571% */
+}
+
+.ec-card__numbers {
+  display: flex;
+}
+
+.ec-card__number {
+  display: flex;
+  flex-direction: column;
+}
+.ec-card__number h3 {
+  color: #FFF;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Rajdhani";
+  font-size: 31.69px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 63.379px;
+  /* 200% */
+}
+.ec-card__number h4 {
+  color: #FFF;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Rajdhani";
+  font-size: 19.806px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 63.379px;
+  /* 320% */
+}
+
+.ec-card__but-follow {
+  justify-content: center;
+  align-items: center;
+}
+.ec-card__but-follow button {
+  width: 234.84px;
+  height: 50.851px;
+  border: 2.409px solid #FFA6FA;
+  background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+  box-shadow: 0px 4.81747px 116.82378px 0px rgba(255, 86, 246, 0.51);
+  -webkit-backdrop-filter: blur(115.6194000244px);
+          backdrop-filter: blur(115.6194000244px);
+}
+.ec-card__but-follow button h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Rajdhani";
+  font-size: 19.898px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 @media (max-width: 1440px) {
   .container {
     width: 100%;
@@ -950,6 +1073,17 @@ body {
     max-width: 1310px;
   }
   .top-nft__container {
+    width: 100%;
+    max-width: 1310px;
+  }
+  .tn-card__but-explore-block {
+    display: none;
+  }
+  .exp-col-second__container {
+    width: 100%;
+    max-width: 1310px;
+  }
+  .exp-col-second {
     width: 100%;
     max-width: 1310px;
   }
@@ -986,6 +1120,9 @@ body {
   }
   .top-nft__container {
     padding-top: 668px;
+  }
+  .tn-card__but-explore-block {
+    display: none;
   }
   .tn-card__first-column h3 {
     font-size: 18px;
@@ -1224,6 +1361,9 @@ body {
     width: 354px;
     height: auto;
     padding: 668px 0 0 4px;
+  }
+  .tn-card__but-explore-block {
+    display: block;
   }
   .top-nft {
     width: 324px;
