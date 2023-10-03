@@ -1260,6 +1260,83 @@ body {
   line-height: normal;
 }
 
+.what-are-nft {
+  padding-top: 200px;
+}
+
+.what-are-nft__background {
+  position: relative;
+}
+.what-are-nft__background .wan__background-img {
+  width: 100%;
+}
+
+.what-are-nft__block {
+  position: absolute;
+  top: 200px;
+  right: 140px;
+  width: 577.05px;
+  height: 473.137px;
+  border-radius: 2.883px;
+  border: 2.883px solid #616161;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(72.8012619019px);
+          backdrop-filter: blur(72.8012619019px);
+  display: flex;
+  flex-direction: column;
+  padding: 58px 0 0 71px;
+}
+.what-are-nft__block h2 {
+  color: #FFF;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: "Inter";
+  font-size: 44.509px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60.088px; /* 135% */
+}
+.what-are-nft__block h3 {
+  padding-top: 17.8px;
+  color: #FFF;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: "Inter";
+  font-size: 20.029px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.607px; /* 177.778% */
+}
+.what-are-nft__block .wan__block-text {
+  display: flex;
+  padding-top: 44.77px;
+}
+.what-are-nft__block .wan__block-text h4 {
+  color: #FFF;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Label / Large Label */
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.what-are-nft__block .wan__block-text .wan__bt-watch-video {
+  display: flex;
+}
+.what-are-nft__block .wan__block-text .wan__bt-watch-video .wan__bt-wath-video-img {
+  padding-left: 44.51px;
+}
+.what-are-nft__block .wan__block-text .wan__bt-watch-video h5 {
+  padding-left: 8px;
+  color: #FFF;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Label / Large Label */
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
 @media (max-width: 1440px) {
   .container {
     width: 100%;
