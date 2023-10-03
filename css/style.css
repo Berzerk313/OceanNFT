@@ -649,7 +649,12 @@ body {
 }
 
 .swiper {
-  width: 1394px;
+  width: 1380px;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  width: 1380px;
   height: 100%;
 }
 
@@ -660,6 +665,7 @@ body {
 
 .tn-block-card {
   padding: 47px 0 0 0;
+  max-width: 437px;
 }
 
 .tn-card {
@@ -673,17 +679,22 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   z-index: -1;
 }
 .tn-card__wrapper {
   display: flex;
   position: relative;
   width: 100%;
-  height: 100%;
   gap: 34px;
   padding: 0px 0 0px 14px;
   justify-content: center;
   align-items: left;
+}
+
+.tn-block-card__image {
+  width: 437.762px;
 }
 
 .tn-card__first-column {
@@ -938,6 +949,10 @@ body {
   padding: 0 0 0 130px;
 }
 
+.exp-col-second__container {
+  padding: 160px 0 0 0;
+}
+
 .exp-col-second {
   width: 1394px;
 }
@@ -945,6 +960,7 @@ body {
 .exp-col-sec__title {
   display: flex;
   justify-content: space-between;
+  padding-left: 8px;
 }
 .exp-col-sec__title h2 {
   color: #FFF;
@@ -954,11 +970,11 @@ body {
   font-weight: 700;
   line-height: normal;
 }
-
-.exp-col-sec__text {
+.exp-col-sec__title .exp-col-sec__text {
   display: flex;
+  padding-right: 10px;
 }
-.exp-col-sec__text h2 {
+.exp-col-sec__title .exp-col-sec__text h2 {
   color: #FFF;
   font-family: "Orbitron";
   font-size: 26.531px;
@@ -966,12 +982,33 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+.exp-col-sec__title .exp-col-sec__text img {
+  padding-left: 20px;
+}
+
+.exp-col-sec__card-all {
+  padding: 50px 0 0 0;
+}
+
+.ec-block-card {
+  border: 2.88px solid rgb(121, 118, 118);
+  width: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) -1.52%, rgba(255, 255, 255, 0.024) 104.35%);
+  -webkit-backdrop-filter: blur(39.6002px);
+  backdrop-filter: blur(39.6002px);
+}
+
+.ec-card__bg {
+  width: 100%;
+  height: 100%;
+}
 
 .ec-card__user {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transform: translateY(-104px);
 }
 .ec-card__user h3 {
   color: #FFF;
@@ -981,7 +1018,6 @@ body {
   font-size: 24.32px;
   font-style: normal;
   font-weight: 500;
-  line-height: 46.08px;
   /* 189.474% */
 }
 .ec-card__user-face-img {
@@ -991,6 +1027,9 @@ body {
 
 .en-card__user-login {
   display: flex;
+  padding: 10px 0 0 19px;
+  gap: 5px;
+  justify-content: center;
 }
 .en-card__user-login h4 {
   color: #FFB1EE;
@@ -999,12 +1038,13 @@ body {
   font-size: 20.16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 46.08px;
   /* 228.571% */
 }
 
 .ec-card__numbers {
   display: flex;
+  padding: 38px 0 0 0;
+  gap: 70px;
 }
 
 .ec-card__number {
@@ -1019,10 +1059,10 @@ body {
   font-size: 31.69px;
   font-style: normal;
   font-weight: 600;
-  line-height: 63.379px;
   /* 200% */
 }
 .ec-card__number h4 {
+  padding: 4px 0 0 0;
   color: #FFF;
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
@@ -1030,13 +1070,13 @@ body {
   font-size: 19.806px;
   font-style: normal;
   font-weight: 500;
-  line-height: 63.379px;
   /* 320% */
 }
 
 .ec-card__but-follow {
   justify-content: center;
   align-items: center;
+  padding: 42px 0 0 8px;
 }
 .ec-card__but-follow button {
   width: 234.84px;
@@ -1158,15 +1198,15 @@ body {
 }
 @media (max-width: 375px) {
   .body {
-    width: 375px;
+    width: 100%;
   }
   .master-container {
     padding: 0 25px;
   }
   .container {
-    width: 330px;
+    width: 375px;
     height: auto;
-    padding: 0 0px;
+    padding: 0 0 0 23px;
   }
   .block-blur {
     width: 324px;
@@ -1339,7 +1379,7 @@ body {
     justify-content: center;
   }
   .logo {
-    padding: 0;
+    padding: 0 0 0 0px;
   }
   .logo__first {
     width: 143.077px;
@@ -1358,16 +1398,13 @@ body {
     height: 16.917px;
   }
   .top-nft__container {
-    width: 354px;
+    width: 100%;
     height: auto;
-    padding: 668px 0 0 4px;
+    padding: 668px 0 0 2px;
+    overflow: visible;
   }
   .tn-card__but-explore-block {
     display: block;
-  }
-  .top-nft {
-    width: 324px;
-    height: auto;
   }
   .tn-block-card__image {
     width: 303.971px;
@@ -1386,12 +1423,27 @@ body {
   .top-nft__text {
     display: none;
   }
+  .tn-block-card-all {
+    overflow: visible;
+  }
+  .swiper {
+    overflow: visible;
+  }
   .swiper-wrapper {
     width: 354px;
+    overflow: visible;
+  }
+  .swiper-slide {
+    overflow: visible;
+  }
+  .tn-card {
+    width: 303.971px;
+    height: 163.985px;
   }
   .tn-card__wrapper {
     gap: 5px;
     justify-content: left;
+    height: 20px;
   }
   .tn-card__first-column {
     padding: 35px 0 0 8px;
@@ -1472,6 +1524,7 @@ body {
     height: 8.34px;
   }
   .exp-collect-first__container {
+    padding: 0 0 0 2px;
     width: 324px;
   }
   .exp-collect-first {
@@ -1515,5 +1568,8 @@ body {
   }
   .exp-col-first__woman {
     padding: 0 0 0 70px;
+  }
+  .exp-col-second__container {
+    width: 330px;
   }
 }/*# sourceMappingURL=style.css.map */
