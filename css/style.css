@@ -197,8 +197,12 @@ body {
 
 .menu li a {
   padding-top: 3em;
-  text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Orbitron";
+  font-size: 19.898px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .master-container {
@@ -298,7 +302,7 @@ body {
   display: none;
 }
 
-.color {
+.main-block__color {
   background: linear-gradient(272deg, #43A5E3 46.06%, #FF56F6 81.53%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -1088,6 +1092,164 @@ body {
           backdrop-filter: blur(115.6194000244px);
 }
 .ec-card__but-follow button h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Rajdhani";
+  font-size: 19.898px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.top-sellers__container {
+  width: 1394px;
+  padding-top: 200px;
+}
+
+.top-sellers__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-sellers__title h2 {
+  color: #FFF;
+  font-family: "Orbitron";
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.top-sellers__title_color {
+  color: #FF56F6;
+  font-family: "Orbitron";
+  font-size: 26.531px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.top-selles__text {
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.top-selles__text h3 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 17.687px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140.188%; /* 24.795px */
+}
+
+.top-sellers__users {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.top-sellers__user {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  width: 437.044px;
+  height: 123.811px;
+  border-radius: 28.572px;
+  border: 2.757px solid rgba(255, 255, 255, 0.28);
+  -webkit-backdrop-filter: blur(37.9078559875px);
+          backdrop-filter: blur(37.9078559875px);
+}
+.top-sellers__user h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 19.048px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.111px; /* 231.579% */
+}
+.tn__user-name-and-numb {
+  display: flex;
+  flex-direction: column;
+}
+.tn__user-name-and-numb h4 {
+  color: #FFF;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 19.048px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.111px; /* 231.579% */
+}
+.tn__user-name-and-numb .tn__user-numb-and-vector {
+  display: flex;
+}
+.tn__user-name-and-numb .tn__user-numb-and-vector h5 {
+  color: rgba(255, 255, 255, 0.8);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 13.757px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44.111px; /* 320.648% */
+}
+
+.tn__user-percents-green {
+  width: 100.597px;
+  height: 35.375px;
+  border-radius: 17.528px;
+  border: 1.131px solid rgba(0, 178, 71, 0.72);
+  background: rgba(0, 178, 71, 0.15);
+  justify-content: center;
+  align-items: center;
+}
+.tn__user-percents-green h6 {
+  color: #0F6;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 14.701px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47.139px; /* 320.648% */
+}
+
+.tn__user-percents-red {
+  width: 100.597px;
+  height: 35.375px;
+  border-radius: 17.528px;
+  border: 1.131px solid rgba(178, 0, 0, 0.72);
+  background: linear-gradient(180deg, rgba(235, 20, 20, 0.15) 0%, rgba(235, 20, 20, 0.1) 100%);
+  justify-content: center;
+  align-items: center;
+}
+.tn__user-percents-red h6 {
+  color: #F00;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto";
+  font-size: 14.701px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47.139px; /* 320.648% */
+}
+
+.tn__but-exlore-all {
+  padding: 30px 0 0 580px;
+  justify-content: center;
+  align-items: center;
+}
+.tn__but-exlore-all button {
+  width: 234.84px;
+  height: 50.851px;
+  border: 2.409px solid #FFA6FA;
+  background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+  box-shadow: 0px 4.81747px 116.82378px 0px rgba(255, 86, 246, 0.51);
+  -webkit-backdrop-filter: blur(115.6194000244px);
+          backdrop-filter: blur(115.6194000244px);
+}
+.tn__but-exlore-all button h4 {
   color: #FFF;
   text-align: center;
   font-family: "Rajdhani";
