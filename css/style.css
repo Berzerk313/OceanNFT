@@ -1144,6 +1144,7 @@ body {
 }
 
 .top-sellers__users {
+  padding-top: 60px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
@@ -1151,7 +1152,6 @@ body {
 
 .top-sellers__user {
   display: flex;
-  gap: 20px;
   align-items: center;
   justify-content: space-between;
   padding-left: 20px;
@@ -1186,6 +1186,7 @@ body {
 }
 .tn__user-name-and-numb .tn__user-numb-and-vector {
   display: flex;
+  gap: 10px;
 }
 .tn__user-name-and-numb .tn__user-numb-and-vector h5 {
   color: rgba(255, 255, 255, 0.8);

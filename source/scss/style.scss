@@ -1303,13 +1303,13 @@ body {
     }
 }
 .top-sellers__users {
+    padding-top: 60px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:30px;
 }
 .top-sellers__user {
     display: flex;
-    gap:20px;
     align-items: center;
     justify-content: space-between;
     padding-left: 20px;
@@ -1346,6 +1346,7 @@ body {
     }
     .tn__user-numb-and-vector {
         display: flex;
+        gap:10px;
         h5{
             color: rgba(255, 255, 255, 0.80);
             font-feature-settings: 'clig' off, 'liga' off;
