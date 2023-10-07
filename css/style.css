@@ -1465,11 +1465,22 @@ body {
   padding: 160.37px 182.4px 0 74.91px;
 }
 
-.hr-footer {
+.hr-footer-first {
   width: 1338.711px;
   height: 1.105px;
   fill: var(--default-white, #FFF);
   opacity: 0.2;
+}
+
+.hr-footer-second {
+  width: 1338.711px;
+  height: 1.105px;
+  fill: var(--default-white, #FFF);
+  opacity: 0.2;
+}
+
+.footer-hr-wrapper {
+  padding-top: 80px;
 }
 
 .footer-first {
@@ -1639,6 +1650,7 @@ body {
 .footer-second {
   display: flex;
   justify-content: space-between;
+  padding: 28px 0 10px 6px;
 }
 .footer-second h4 {
   color: var(--text-gray-300, #D9DBE1);
@@ -1651,6 +1663,8 @@ body {
 }
 .footer-second .footer-terms {
   display: flex;
+  gap: 10px;
+  padding: 0 28px 0px 0;
 }
 .footer-second .footer-terms h4 {
   color: var(--text-gray-300, #D9DBE1);

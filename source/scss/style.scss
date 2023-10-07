@@ -1674,12 +1674,22 @@ body {
 }
 .footer {  
 }
-.hr-footer {
+.hr-footer-first {
     width: 1338.711px;
     height: 1.105px;
     fill: var(--default-white, #FFF);
     opacity: 0.2;
 }
+.hr-footer-second{
+    width: 1338.711px;
+    height: 1.105px;
+    fill: var(--default-white, #FFF);
+    opacity: 0.2;
+}
+.footer-hr-wrapper{
+    padding-top: 80px;
+}
+
 .footer-first {
     display: flex;
     padding-top: 96px;
@@ -1849,6 +1859,7 @@ body {
 .footer-second {
     display: flex;
     justify-content: space-between;
+    padding: 28px 0 10px 6px;
     h4{
         color: var(--text-gray-300, #D9DBE1);
         font-feature-settings: 'salt' on, 'liga' off;
@@ -1860,6 +1871,8 @@ body {
     }
     .footer-terms {
         display: flex;
+        gap:10px;
+        padding: 0 28px 0px 0;
         h4{
             color: var(--text-gray-300, #D9DBE1);
             font-feature-settings: 'salt' on, 'liga' off;
