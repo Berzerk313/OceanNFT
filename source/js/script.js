@@ -10,15 +10,15 @@ document.addEventListener('DOMContentLoaded', function () {
             centerSlides: 'true',
             spaceBetween: 10,
         },
-        950: {
+        768: {
             slidesPerView: 1.5,
-            spaceBetween: 30,
+            spaceBetween: 5,
         },
         1095: {
             slidesPerView: 2.5,
         },
         1290:{
-          slidesPerView: 3,
+          slidesPerView: 2.8,
         },
        
     },
