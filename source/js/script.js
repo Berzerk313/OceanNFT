@@ -6,8 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
     fade: 'true',
     breakpoints: {
         320: {
-            slidesPerView: 1.3,
+            slidesPerView: 1.1,
             centerSlides: 'true',
+            spaceBetween: 10,
         },
         950: {
             slidesPerView: 1.5,
@@ -25,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
     autoplay: {
       delay: 1000,
     },
-   // loop: true,
+    loop: true,
   });
   
   
