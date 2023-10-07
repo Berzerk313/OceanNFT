@@ -1574,6 +1574,97 @@ body {
 
 /////////////////////////
 
+.subcribe-container {
+    width: 100%;
+    padding-top: 293px;
+}
+
+.subscribe {
+    display: flex;
+}
+
+.sub-left {
+    padding-left: 7px;
+}
+
+.sub-mobile-img {}
+
+.sub-img {}
+
+.sub-right {
+    display: flex;
+    flex-direction: column;
+    padding: 31px 0 0 76px;
+
+    h2 {
+        color: #FFF;
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: 'Orbitron';
+        font-size: 39.797px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    h3 {
+        padding-top: 28px;
+        color: #FFF;
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: 'Inter';
+        font-size: 19.898px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35.375px;
+        /* 177.778% */
+    }
+}
+
+.sub-right__subscribe {
+    display: flex;
+    padding-top: 48px;
+
+    input {
+        padding: 15.476px 17.687px;
+        width: 274.1539px;
+        height: 53.062px;
+        align-items: center;
+        border-radius: 5.527px 0px 0px 5.527px;
+        background: var(--text-gray-100, #F4F5F7);
+        color: var(--text-gray-800, #474A57);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: 'Inter';
+        font-size: 15.476px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26.531px;
+        /* 171.429% */
+    }
+
+    .sub-right__subcribe-button {
+        padding: 3px 0 0 10px;
+
+        button {
+            width: 143.71px;
+            height: 48.64px;
+            border-radius: 0px 5.527px 5.527px 0px;
+            border: 2.409px solid #FFA6FA;
+            background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+            box-shadow: 0px 4.81747px 116.82378px 0px rgba(255, 86, 246, 0.51);
+            backdrop-filter: blur(115.61940002441406px);
+
+            h4 {
+                color: var(--default-white, #FFF);
+                font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+                font-family: 'Inter';
+                font-size: 15.476px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 22.109px;
+                /* 142.857% */
+            }
+        }
+    }
+}
 
 
 /////////////////////////
@@ -1679,7 +1770,7 @@ body {
         z-index: 10;
     }
 
-    .master-container__wrapper{
+    .master-container__wrapper {
         width: 100%;
         z-index: 10;
     }
@@ -1833,6 +1924,26 @@ body {
     .what-are-nft__block {
         top: 40px;
         left: 100px;
+    }
+
+    //////////////////////
+
+    .subcribe-container {
+        width: 698px;
+    }
+
+    .subscribe {
+        flex-direction: column;
+        gap: 80px;
+
+        .sub-left {
+            order: 2;
+
+        }
+
+        .sub-right {
+            order: 1;
+        }
     }
 }
 
@@ -2747,59 +2858,117 @@ body {
     .what-are-nft {
         padding: 108px 0 0 0;
         width: 375px;
+
         .wan__background-img {
             width: 375px;
             height: 300px;
         }
-        .what-are-nft__background{
+
+        .what-are-nft__background {
             .what-are-nft__block {
                 top: 124px;
                 left: 20px;
                 width: 335.397px;
                 height: 275px;
                 padding: 32px 0 0 38px;
-        
+
                 h2 {
                     font-size: 25.87px;
                     line-height: 34.925px;
-                    
+
                 }
-        
+
                 h3 {
                     padding: 10px 0 0 0;
                     width: 266.461px;
                     font-size: 11.642px;
                     line-height: 20.696px
                 }
+
                 .wan__block-text {
                     padding: 20px 0 0 0;
-                    gap:24px;
+                    gap: 24px;
+
                     h4 {
                         font-size: 10px;
                     }
-            
+
                     .wan__bt-watch-video {
                         align-items: center;
-                        .wan__bt-wath-video-img{
+
+                        .wan__bt-wath-video-img {
                             padding-left: 0px;
                             width: 18.114px;
                             height: 12.348px;
                         }
-            
+
                         h5 {
                             padding: 0;
                             font-size: 10px;
                         }
                     }
                 }
-                
+
             }
         }
 
-        
+
+    }
+
+    .subcribe-container {
+        padding-top: 207px;
+        width: 324px;
+    }
+
+    .subscribe {
+        .sub-left {
+            padding: 29px 0 0 2px ;
+        }
+
+        .sub-right {
+            padding: 0 0 0 3px;
+
+            h2 {
+                font-size: 26.27px;
+            }
+
+            h3 {
+                padding-top: 16px;
+                font-size: 13.135px;
+                line-height: 23.351px; /* 177.778% */
+            }
+
+            .sub-right__subscribe {
+                padding-top: 34px;
+                input {
+                    font-size: 10.216px;
+                    width: 180.973px;
+                    height: 35.027px;
+                    padding: 10.216px 11.676px;
+                    border-radius: 3.649px 0px 0px 3.649px;
+                    background: var(--text-gray-100, #F4F5F7);
+                }
+
+                .sub-right__subcribe-button {
+                    padding: 3px 0 0 5px;
+                    button {
+                        width: 94.865px;
+                        height: 32.108px;
+                        border-radius: 0px 3.649px 3.649px 0px;
+                        border: 1.59px solid #FFA6FA;
+                        background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+                        box-shadow: 0px 3.18009px 77.11707px 0px rgba(255, 86, 246, 0.51);
+                        backdrop-filter: blur(76.32205200195312px);
+
+                        h4 {
+                            font-size: 10.216px;
+                        }
+                    }
+                }
+            }
+        }
     }
 
 
-    
 
 }

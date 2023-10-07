@@ -1377,6 +1377,89 @@ body {
   /* 150% */
 }
 
+.subcribe-container {
+  width: 100%;
+  padding-top: 293px;
+}
+
+.subscribe {
+  display: flex;
+}
+
+.sub-left {
+  padding-left: 7px;
+}
+
+.sub-right {
+  display: flex;
+  flex-direction: column;
+  padding: 31px 0 0 76px;
+}
+.sub-right h2 {
+  color: #FFF;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: "Orbitron";
+  font-size: 39.797px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sub-right h3 {
+  padding-top: 28px;
+  color: #FFF;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: "Inter";
+  font-size: 19.898px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.375px;
+  /* 177.778% */
+}
+
+.sub-right__subscribe {
+  display: flex;
+  padding-top: 48px;
+}
+.sub-right__subscribe input {
+  padding: 15.476px 17.687px;
+  width: 274.1539px;
+  height: 53.062px;
+  align-items: center;
+  border-radius: 5.527px 0px 0px 5.527px;
+  background: var(--text-gray-100, #F4F5F7);
+  color: var(--text-gray-800, #474A57);
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: "Inter";
+  font-size: 15.476px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.531px;
+  /* 171.429% */
+}
+.sub-right__subscribe .sub-right__subcribe-button {
+  padding: 3px 0 0 10px;
+}
+.sub-right__subscribe .sub-right__subcribe-button button {
+  width: 143.71px;
+  height: 48.64px;
+  border-radius: 0px 5.527px 5.527px 0px;
+  border: 2.409px solid #FFA6FA;
+  background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+  box-shadow: 0px 4.81747px 116.82378px 0px rgba(255, 86, 246, 0.51);
+  -webkit-backdrop-filter: blur(115.6194000244px);
+          backdrop-filter: blur(115.6194000244px);
+}
+.sub-right__subscribe .sub-right__subcribe-button button h4 {
+  color: var(--default-white, #FFF);
+  font-feature-settings: "salt" on, "clig" off, "liga" off;
+  font-family: "Inter";
+  font-size: 15.476px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22.109px;
+  /* 142.857% */
+}
+
 @media (max-width: 1440px) {
   .container {
     width: 100%;
@@ -1565,6 +1648,19 @@ body {
   .what-are-nft__block {
     top: 40px;
     left: 100px;
+  }
+  .subcribe-container {
+    width: 698px;
+  }
+  .subscribe {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .subscribe .sub-left {
+    order: 2;
+  }
+  .subscribe .sub-right {
+    order: 1;
   }
 }
 @media (max-width: 375px) {
@@ -2260,5 +2356,50 @@ body {
   .what-are-nft .what-are-nft__background .what-are-nft__block .wan__block-text .wan__bt-watch-video h5 {
     padding: 0;
     font-size: 10px;
+  }
+  .subcribe-container {
+    padding-top: 207px;
+    width: 324px;
+  }
+  .subscribe .sub-left {
+    padding: 29px 0 0 2px;
+  }
+  .subscribe .sub-right {
+    padding: 0 0 0 3px;
+  }
+  .subscribe .sub-right h2 {
+    font-size: 26.27px;
+  }
+  .subscribe .sub-right h3 {
+    padding-top: 16px;
+    font-size: 13.135px;
+    line-height: 23.351px; /* 177.778% */
+  }
+  .subscribe .sub-right .sub-right__subscribe {
+    padding-top: 34px;
+  }
+  .subscribe .sub-right .sub-right__subscribe input {
+    font-size: 10.216px;
+    width: 180.973px;
+    height: 35.027px;
+    padding: 10.216px 11.676px;
+    border-radius: 3.649px 0px 0px 3.649px;
+    background: var(--text-gray-100, #F4F5F7);
+  }
+  .subscribe .sub-right .sub-right__subscribe .sub-right__subcribe-button {
+    padding: 3px 0 0 5px;
+  }
+  .subscribe .sub-right .sub-right__subscribe .sub-right__subcribe-button button {
+    width: 94.865px;
+    height: 32.108px;
+    border-radius: 0px 3.649px 3.649px 0px;
+    border: 1.59px solid #FFA6FA;
+    background: linear-gradient(92deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+    box-shadow: 0px 3.18009px 77.11707px 0px rgba(255, 86, 246, 0.51);
+    -webkit-backdrop-filter: blur(76.322052002px);
+            backdrop-filter: blur(76.322052002px);
+  }
+  .subscribe .sub-right .sub-right__subscribe .sub-right__subcribe-button button h4 {
+    font-size: 10.216px;
   }
 }/*# sourceMappingURL=style.css.map */
