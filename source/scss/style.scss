@@ -1666,6 +1666,212 @@ body {
     }
 }
 
+/////////////////////////
+
+.footer-container {
+    width: 100%;
+    padding: 160.37px 182.4px 0 74.91px;
+}
+.footer {  
+}
+.hr-footer {
+    width: 1338.711px;
+    height: 1.105px;
+    fill: var(--default-white, #FFF);
+    opacity: 0.2;
+}
+.footer-first {
+    display: flex;
+    padding-top: 96px;
+    .footer-ocean {
+        display: flex;
+        flex-direction: column;
+        gap:13.27px;
+        .footer-logo {
+            padding-left: 4px;
+            width: 150.179px;
+            height: 31.426px;
+        }
+        h3{
+            padding: 17px 0 0 8px;
+            color: var(--text-gray-300, #D9DBE1);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 15.476px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.531px; /* 171.429% */
+            max-width: 281.892px;
+        }
+        .footer-icons {
+            display: flex;
+            gap:17px;
+            padding: 12px 0 0 7px;
+            .icon {
+            }
+        }
+    }
+    .footer-market {
+        display: flex;
+        flex-direction: column;
+        gap:13.27px;
+        padding-left: 98px;
+        h2{
+            color: var(--default-white, #FFF);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 19.898px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30.953px; /* 155.556% */
+        }
+        h3{
+            padding-top: 1px;
+            color: var(--text-gray-300, #D9DBE1);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 15.476px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.531px; /* 171.429% */ 
+            .footer-color {
+                color: var(--brand-turquoise, #2EC5CE);
+                font-family: 'MuseoModerno';
+                font-size: 22.109px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26.531px; /* 120% */
+            }
+        }
+    }
+    .footer-collectibles {
+        display: flex;
+        flex-direction: column;
+        gap:13.27px;
+        padding-left: 88px;
+        h2{
+            color: var(--default-white, #FFF);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 19.898px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30.953px; /* 155.556% */
+        }
+        h3{
+            padding-top: 2px;
+            color: var(--text-gray-300, #D9DBE1);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 15.476px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.531px; /* 171.429% */
+        }
+    }
+    .footer-support {
+        display: flex;
+        flex-direction: column;
+        gap:13.27px;
+        padding-left: 98px;
+        h2{
+            color: var(--default-white, #FFF);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 19.898px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30.953px; /* 155.556% */
+
+        }
+        h3{
+            padding-top: 1px;
+            color: var(--text-gray-300, #D9DBE1);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 15.476px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.531px; /* 171.429% */
+        }
+    }
+    .footer-legal {
+        display: flex;
+        flex-direction: column;
+        gap:13.27px;
+        padding-left: 108px;
+        h2{
+            color: var(--default-white, #FFF);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 19.898px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30.953px; /* 155.556% */
+        }
+        h3{
+            padding-top: 1px;
+            color: var(--text-gray-300, #D9DBE1);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 15.476px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.531px; /* 171.429% */
+        }
+    }
+    .footer-follow {
+        display: flex;
+        flex-direction: column;
+        gap:13.27px;
+        padding-left: 82px;
+        h2{
+            color: var(--default-white, #FFF);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 19.898px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30.953px; /* 155.556% */
+        }
+        h3{
+            padding-top: 1px;
+            color: var(--text-gray-300, #D9DBE1);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 15.476px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.531px; /* 171.429% */
+        }
+    }
+}
+.footer-second {
+    display: flex;
+    justify-content: space-between;
+    h4{
+        color: var(--text-gray-300, #D9DBE1);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: 'Inter';
+        font-size: 15.476px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26.531px; /* 171.429% */
+    }
+    .footer-terms {
+        display: flex;
+        h4{
+            color: var(--text-gray-300, #D9DBE1);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: 'Inter';
+            font-size: 15.476px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26.531px; /* 171.429% */
+        }
+    }
+}
+
 
 /////////////////////////
 
