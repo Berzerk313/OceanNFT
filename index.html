@@ -33,7 +33,7 @@
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-  
+
 </head>
 
 <body>
@@ -63,6 +63,30 @@
     </div>
   </div>
 
+  <div class="header__container">
+    <div class="header">
+      <div class="header__logo">
+        <picture>
+          <source srcset="./img/Header/OceanNFT-mobile.svg" media="(max-width: 375px)" class="header__logo-img-mob">
+          <img src="./img/Header/OceanNFT.svg" alt="Oops" class="header__logo-img">
+        </picture>
+      </div>
+      <div class="header__menu">
+        <div class="header__menu-market">Market</div>
+        <div class="header__menu-features">Features</div>
+        <div class="header__menu-community">Community</div>
+      </div>
+      <div class="header__icons">
+        <div class="header__icons-shop">
+          <img src="./img/Header/akar-icons_cart.svg" alt="Oops" class="header__icons-shop-img">
+        </div>
+        <div class="header__icons-account">
+          <img src="./img/Header/Group.svg" alt="Oops" class="header__icons-account-img">
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container">
 
     <div class="block-blur">
@@ -78,30 +102,6 @@
         fill="none">
         <circle cx="77.2613" cy="76.9075" r="76.8294" fill="#FFB1EE" />
       </svg>
-    </div>
-
-    <div class="header__container">
-      <div class="header">
-        <div class="header__logo">
-          <picture>
-            <source srcset="./img/Header/OceanNFT-mobile.svg" media="(max-width: 375px)" class="header__logo-img-mob">
-            <img src="./img/Header/OceanNFT.svg" alt="Oops" class="header__logo-img">
-          </picture>
-        </div>
-        <div class="header__menu">
-          <div class="header__menu-market">Market</div>
-          <div class="header__menu-features">Features</div>
-          <div class="header__menu-community">Community</div>
-        </div>
-        <div class="header__icons">
-          <div class="header__icons-shop">
-            <img src="./img/Header/akar-icons_cart.svg" alt="Oops" class="header__icons-shop-img">
-          </div>
-          <div class="header__icons-account">
-            <img src="./img/Header/Group.svg" alt="Oops" class="header__icons-account-img">
-          </div>
-        </div>
-      </div>
     </div>
 
     <div class="main-block_logotips__container">
@@ -1131,7 +1131,7 @@
             <picture>
               <source srcset="./img/Subscribe-to-us/painting-mobile.png" media="(max-width: 375px)"
                 class="sub-mobile-img">
-              <img src="./img/Subscribe-to-us/painting.png" alt="Oops" class="sub-img">
+              <img src="/img/Subscribe-to-us/painting.png" alt="Oops" class="sub-img">
             </picture>
           </div>
           <div class="sub-right">
@@ -1150,7 +1150,7 @@
         </div>
       </div>
     </section>
-  
+
 
     <section>
       <div class="footer-container">
@@ -1243,7 +1243,9 @@
               <h3>Pricing</h3>
               <h3>Releases</h3>
             </div>
-            <hr class="hr-footer-second">
+            <div class="hr-footer-second__wrapper">
+              <hr class="hr-footer-second">
+            </div>
           </div>
           <div class="accordion-item">
             <input class="accordion-item__input" type="checkbox" id="accordion-2">
@@ -1260,7 +1262,9 @@
               <h3>Contact</h3>
               <h3>Partners</h3>
             </div>
-            <hr class="hr-footer-second">
+            <div class="hr-footer-second__wrapper">
+              <hr class="hr-footer-second">
+            </div>
           </div>
           <div class="accordion-item">
             <input class="accordion-item__input" type="checkbox" id="accordion-3">
@@ -1277,7 +1281,9 @@
               <h3>Privacy policy</h3>
               <h3>Status</h3>
             </div>
-            <hr class="hr-footer-second">
+            <div class="hr-footer-second__wrapper">
+              <hr class="hr-footer-second">
+            </div>
           </div>
           <div class="accordion-item">
             <input class="accordion-item__input" type="checkbox" id="accordion-4">
@@ -1294,7 +1300,9 @@
               <h3>Law Enforcement</h3>
               <h3>Status</h3>
             </div>
-            <hr class="hr-footer-second">
+            <div class="hr-footer-second__wrapper">
+              <hr class="hr-footer-second">
+            </div>
           </div>
           <div class="accordion-item">
             <input class="accordion-item__input" type="checkbox" id="accordion-5">
@@ -1319,7 +1327,7 @@
 
 
 
-    <!-- <div class="footer-accordion">
+      <!-- <div class="footer-accordion">
       <hr class="hr-footer-first">
       <div class="footer-ocean">
         <img src="./img/Footer/oceanNFT.svg" alt="Oops" class="footer-logo">
@@ -1400,11 +1408,13 @@
     </section>
 
     <div class="footer-second">
-      <h4>© 2020 Landify UI Kit. All rights reserved</h4>
+      <div class="footer-landify">
+        <h4>© 2020 Landify UI Kit. All rights reserved</h4>
+      </div>
       <div class="footer-terms">
         <h4>Terms & Conditions</h4>
         <h4>Privacy Policy</h4>
-        <h4>Sitemap</h4>
+        <h4 class="footer-sitemap">Sitemap</h4>
       </div>
     </div>
   </div>

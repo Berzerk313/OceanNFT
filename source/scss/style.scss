@@ -81,23 +81,26 @@ body {
 ///////////////////////////
 
 .header__container {
-    max-width: 1388px;
+    // max-width: 1388px;
     padding: 50px 0 0 0;
     position: fixed;
     width: 100%;
     z-index: 10;
+    background: rgb(36, 16, 67);
+    padding-bottom: 20px;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
     height: auto;
     z-index: 10;
 }
 
 .header__logo {
-    padding: 0 0 0 10px;
+    padding: 0 0 0 114px;
 
 }
 
@@ -127,7 +130,7 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 0 2px 0 0;
+    padding: 0 112px 0 0px;
     z-index: 10;
 
 }
@@ -188,15 +191,19 @@ body {
     align-items: center;
     background: rgb(36, 16, 67);
     overflow: visible;
-    padding: 0 45px;
+    padding: 0px 45px 0px 45px;
     margin-bottom: 30px;
 }
 
+.header__logo-img-mob{
+   // padding: 0 4px 40px 0px;
+}
 
 .burger-menu {
     margin-top: 25px;
+    padding-bottom: 30px;;
     cursor: pointer;
-
+    
 }
 
 
@@ -213,7 +220,7 @@ body {
     width: 5em;
     display: block;
     width: 40px;
-    border-top: 6px solid white;
+    border-top: 3px solid white;
     padding-top: 6px;
     cursor: pointer;
     transition: 0.4s;
@@ -225,7 +232,7 @@ body {
     width: 5em;
     display: block;
     width: 20px;
-    border-top: 6px solid white;
+    border-top: 3px solid white;
     padding-top: 5px;
     display: fixed;
     transition: 0.4s;
@@ -237,7 +244,7 @@ body {
     width: 5em;
     display: block;
     width: 40px;
-    border-top: 6px solid white;
+    border-top: 3px solid white;
     padding-top: 5px;
     transition: 0.4s;
 
@@ -2001,6 +2008,10 @@ body {
         z-index: 10;
     }
 
+    .main-block{
+        display: flex;
+    }
+
     .logotips {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -2272,7 +2283,7 @@ body {
     }
     .accordion-item__trigger {
         display: block;
-        padding: 0px 20px 10px 0;
+        padding: 0px 20px 14px 0;
     }
     .accordion-item__trigger-wrapper {
         display: flex;
@@ -2320,6 +2331,12 @@ body {
     }
     .hr-footer-second{
         width: 698px;
+    }
+
+    .footer-second{
+        .footer-sitemap{
+            display: none;
+        }
     }
 }
 
@@ -3352,6 +3369,9 @@ body {
     .hr-footer-first{
         width: 324px;
     }
+    .hr-footer-second__wrapper{
+        padding-top: 0px;
+    }
     .hr-footer-second{
         width: 324px;
     }
@@ -3371,5 +3391,15 @@ body {
     //     }
     // }
     
-
+    .footer-second{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        .footer-terms{
+            order: 1;
+        }
+        .footer-landify{
+            order: 2;
+        }
+    }
 }
