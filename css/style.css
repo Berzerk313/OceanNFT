@@ -1460,20 +1460,28 @@ body {
   /* 142.857% */
 }
 
+.footer-accordion {
+  display: none;
+}
+
+.accordion-wrapper {
+  display: none;
+}
+
 .footer-container {
   width: 100%;
-  padding: 160.37px 182.4px 0 74.91px;
+  padding-top: 160px;
 }
 
 .hr-footer-first {
-  width: 1338.711px;
+  width: 1377.711px;
   height: 1.105px;
   fill: var(--default-white, #FFF);
   opacity: 0.2;
 }
 
 .hr-footer-second {
-  width: 1338.711px;
+  width: 1377.711px;
   height: 1.105px;
   fill: var(--default-white, #FFF);
   opacity: 0.2;
@@ -1866,7 +1874,7 @@ body {
     left: 100px;
   }
   .subcribe-container {
-    width: 698px;
+    width: 660px;
   }
   .subscribe {
     flex-direction: column;
@@ -1875,8 +1883,102 @@ body {
   .subscribe .sub-left {
     order: 2;
   }
+  .subscribe .sub-left .sub-img {
+    width: 660px;
+  }
   .subscribe .sub-right {
     order: 1;
+  }
+  .footer-container {
+    display: none;
+  }
+  .hr-footer-first {
+    width: 660px;
+  }
+  .footer-ocean {
+    padding-top: 26px;
+  }
+  .footer-ocean h3 {
+    padding: 20px 0 0 0;
+    color: var(--text-gray-300, #D9DBE1);
+    font-feature-settings: "salt" on, "liga" off;
+    font-family: "Inter";
+    font-size: 15.476px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.531px; /* 171.429% */
+  }
+  .footer-ocean .footer-icons {
+    padding-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  .accordion-wrapper {
+    display: block;
+    padding: 108px 0 0 2px;
+  }
+  .accordion {
+    padding-top: 54px;
+  }
+  .accordion-item {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .accordion-item__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .accordion-item__trigger {
+    display: block;
+    padding: 0px 20px 10px 0;
+  }
+  .accordion-item__trigger-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .accordion-item__trigger-wrapper h2 {
+    color: var(--default-white, #FFF);
+    font-feature-settings: "salt" on, "liga" off;
+    font-family: "Inter";
+    font-size: 19.898px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30.953px; /* 155.556% */
+  }
+  .accordion-item__trigger-wrapper img {
+    padding-right: 26px;
+  }
+  .accordion-item__content {
+    display: none;
+  }
+  .accordion-item__content h3 {
+    color: var(--text-gray-300, #D9DBE1);
+    font-feature-settings: "salt" on, "liga" off;
+    font-family: "Inter";
+    font-size: 15.476px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.531px; /* 171.429% */
+  }
+  .accordion-item__content .footer-color {
+    color: var(--brand-turquoise, #2EC5CE);
+    font-family: "MuseoModerno";
+    font-size: 22.109px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.531px; /* 120% */
+  }
+  .accordion-item__input:checked ~ .accordion-item__content {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+  }
+  .hr-footer-second {
+    width: 698px;
   }
 }
 @media (max-width: 375px) {
@@ -2580,6 +2682,10 @@ body {
   .subscribe .sub-left {
     padding: 29px 0 0 2px;
   }
+  .subscribe .sub-left .sub-img {
+    width: 326px;
+    height: 380px;
+  }
   .subscribe .sub-right {
     padding: 0 0 0 3px;
   }
@@ -2617,5 +2723,18 @@ body {
   }
   .subscribe .sub-right .sub-right__subscribe .sub-right__subcribe-button button h4 {
     font-size: 10.216px;
+  }
+  .hr-footer-first {
+    width: 324px;
+  }
+  .hr-footer-second {
+    width: 324px;
+  }
+  .footer-ocean h3 {
+    padding-top: 31px;
+  }
+  .footer-ocean .footer-icons {
+    padding-top: 24px;
+    gap: 17px;
   }
 }/*# sourceMappingURL=style.css.map */
