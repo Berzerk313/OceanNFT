@@ -95,7 +95,7 @@ body {
 }
 
 .blur {
-  background: url("/img/Background/pages-bgc.png") no-repeat;
+  background: url("../img/Background/pages-bgc.png") no-repeat;
   background-size: cover;
   background-position: top center;
 }
