@@ -1698,6 +1698,9 @@ body {
     width: 100%;
     max-width: 1310px;
   }
+  .exp-collect-first__container {
+    width: 1310px;
+  }
   .exp-col-first {
     width: 1310px;
   }
@@ -1711,6 +1714,12 @@ body {
   .exp-col-second {
     width: 100%;
     max-width: 1310px;
+  }
+  .ec-block-card {
+    width: 437.75px;
+  }
+  .exp-col-sec__card-all {
+    width: 1310px;
   }
   .ec-card__explore-button-wrapper {
     display: none;
@@ -1737,6 +1746,15 @@ body {
   }
   .what-are-nft {
     width: 1440px;
+  }
+  .hr-footer-first {
+    width: 1310px;
+  }
+  .hr-footer-second {
+    width: 1310px;
+  }
+  .swiper {
+    width: 1270px;
   }
 }
 @media (max-width: 768px) {
