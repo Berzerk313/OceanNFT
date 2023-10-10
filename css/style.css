@@ -1667,6 +1667,9 @@ body {
     width: 100%;
     max-width: 1310px;
   }
+  .header__container {
+    width: 1440px;
+  }
   .logo {
     padding: 10px;
   }
@@ -1719,7 +1722,7 @@ body {
     padding: 50px 0 0 540px;
   }
   .what-are-nft {
-    width: 1500px;
+    width: 1440px;
   }
 }
 @media (max-width: 768px) {
