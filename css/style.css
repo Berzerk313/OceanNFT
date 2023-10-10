@@ -90,51 +90,10 @@ body {
   padding: 0 15px;
 }
 
-.block-blur {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.ellipse-first {
-  max-width: 267.521px;
-  max-height: 267.521px;
-  flex-shrink: 0;
-  border-radius: 267.521px;
-  background: #4A46FF;
-  position: absolute;
-  top: 240px;
-  right: 320px;
-  filter: blur(80px);
-  z-index: -1;
-  opacity: 0.25;
-}
-
-.ellipse-second {
-  max-width: 153.659px;
-  max-height: 153.659px;
-  flex-shrink: 0;
-  fill: #FFB1EE;
-  position: absolute;
-  top: 430px;
-  left: 660px;
-  filter: blur(80px);
-  z-index: -1;
-  opacity: 0.25;
-}
-
-.ellipse-third {
-  max-width: 271.943px;
-  max-height: 271.943px;
-  flex-shrink: 0;
-  border-radius: 271.943px;
-  background: #FF00C8;
-  position: absolute;
-  top: 460px;
-  left: 60px;
-  filter: blur(80px);
-  z-index: -1;
-  opacity: 0.25;
+.blur {
+  background: url("/img/Background/pages-bgc.png") no-repeat;
+  background-size: cover;
+  background-position: top center;
 }
 
 .header__container {
