@@ -2117,6 +2117,9 @@ body {
     padding: 24px 0 0px 10px;
     gap: 6px;
   }
+  .sums-border {
+    border: 0;
+  }
   .left-block__text {
     color: rgba(255, 255, 255, 0.6);
     font-family: Lato;
@@ -2756,5 +2759,8 @@ body {
   }
   .footer-second .footer-landify {
     order: 2;
+  }
+  .footer-terms__befaft {
+    border: 0;
   }
 }/*# sourceMappingURL=style.css.map */

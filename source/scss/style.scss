@@ -2456,6 +2456,8 @@ body {
             display: none;
         }
     }
+
+    
 }
 
 
@@ -2625,6 +2627,10 @@ body {
     .left-block__sums-column {
         padding: 24px 0 0px 10px;
         gap: 6px;
+    }
+
+    .sums-border{
+        border: 0;
     }
 
     .left-block__text {
@@ -3530,5 +3536,8 @@ body {
         .footer-landify {
             order: 2;
         }
+    }
+    .footer-terms__befaft{
+        border: 0;
     }
 }
