@@ -13,6 +13,10 @@
 // файл обнуляющих стилей
 @import "nullstyle.scss";
 
+a{
+    text-decoration: none;
+}
+
 body {
     width: 100%;
     height: auto;
@@ -124,11 +128,18 @@ body {
     line-height: normal;
     padding: 0 261px 0 0;
     z-index: 10;
+    a{
+        color: rgba(255, 255, 255, 0.60);
+    }
 }
 
-.header__menu-market {}
+.header__menu-market {
+    
+}
 
-.header__menu-features {}
+.header__menu-features {
+    
+}
 
 .header__menu-community {}
 

@@ -76,6 +76,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   width: 100%;
   height: auto;
@@ -129,6 +133,9 @@ body {
   line-height: normal;
   padding: 0 261px 0 0;
   z-index: 10;
+}
+.header__menu a {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .header__icons {
